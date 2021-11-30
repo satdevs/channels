@@ -1,0 +1,1 @@
+A html tempalte-k is a PDF könyvtárban vannak. Így egy és ugyanazt a fájlt kell módosítani.

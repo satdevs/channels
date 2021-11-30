@@ -1,0 +1,228 @@
+@page{
+	margin: 0px 0px 0px 0px !important;
+	padding: 0px 0px 0px 0px !important;
+	footer: html_myHTMLFooter;	/* Most üres */
+}
+body{
+	font-family: 'Oswald', sans-serif;
+}
+.clear-both{
+	width: 100%;
+	height: 0px;
+	margin-top: 1px;
+	clear: both;
+	background: white;
+}
+footer{
+	margin-top: 5px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+
+#page-1, #page-2{
+	width: 782px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px solid red;
+}
+#page-1 header {
+	width: 100%;
+	height: 45px;
+	margin-bottom: 10px;
+	border: 0px solid green;
+}
+	#page-1 div.logo {
+		width: 55px;
+		height: 55px;
+		margin-right: 4px;
+		border: 0px solid green;
+		float: left;
+	}
+		#page-1 div.logo .logo{
+			width: 45px;
+			height: 45px;
+			border: 0px solid green;
+		}
+
+	#page-1 .title {
+		width: 648px;
+		height: 45px;
+		float: left;
+		font-family: 'Roboto', sans-serif;
+		border: 0px solid green;
+	}
+		#page-1 .title h1{
+			font-family: 'Roboto', sans-serif;
+			font-size: 22px;
+			font-weight: bold;
+			margin: 0;
+			text-align: center;
+			border: 0px solid green;
+		}
+		#page-1 .title p{
+			font-family: 'Oswald', sans-serif;
+			font-size: 12px;
+			margin: 2px 0 0 0;
+			text-align: center;
+			border: 0px solid green;
+		}
+
+	#page-1 .date {
+		width: 70px;
+		height: 45px;
+		float: right;
+		text-align: right;
+		font-family: 'Oswald', sans-serif;
+		font-size: 11px;
+		border: 0px solid green;
+	}
+		#page-1 .date .time {
+			text-align: right;
+			padding-right: 2px;
+			font-family: 'Oswald', sans-serif;
+			font-size: 10px;
+		}
+
+#page-1 div.left, #page-1 div.right  {
+	float: left;
+	width: 390px;
+	border: 0px solid green;
+}
+#page-1 div.right {
+	float: right;
+}
+
+	#page-1 div.left {
+		
+	}
+	#table-left, #table-right{
+		margin-left: 5px;
+		width: 100%;
+		font-size: 9px;
+		font-family: 'Oswald', sans-serif;
+		border: 1px solid black;
+	}
+	#table-right{
+		margin-left: 10px;
+	}
+	th, td{
+		border-right: 1px solid lightgray;
+		border-bottom: 1px solid lightgray;
+		padding: 0px 3px;
+	}
+	th:last-child, td:last-child{
+		border-right: 0px solid lightgray;
+		padding: 0 1px;
+	}
+		.lcn{
+			width: 28px;
+			font-family: 'Roboto', sans-serif;
+			font-size: 9px;
+			text-align: center;
+			font-weight: bold;
+			padding: 0px;
+		}
+		.name{
+			font-family: 'Roboto', sans-serif;
+			font-size: 9px;
+			text-align: left;
+			font-weight: bold;
+			padding: 0px;
+		}		
+		.feature{
+			font-family: 'Oswald', sans-serif;
+			font-size: 9px;
+			text-align: left;			
+		}		
+		.language{
+			font-family: 'Oswald', sans-serif;
+			font-size: 9px;
+			text-align: center;
+		}
+		.new, .family-package{
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
+			font-weight: bold;
+			font-size: 9px;			
+		}
+
+
+
+
+
+
+#page-2 .title-digitals h3{
+	text-align: center;
+	padding: 0;
+	margin: 15px 0 0 0;
+}
+#page-2 .container{
+	column-count: 2;	
+}
+	.digitals{
+		width: 382px;
+		font-size: 10px;
+		font-family: 'Oswald', sans-serif;
+		margin-bottom: 10px;
+	}
+		
+		.digitals table{
+			width: 100%;
+			border: 1px solid black;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+			.digitals th.title{
+				font-family: 'Roboto', sans-serif;
+				font-size: 10px;
+				text-align: center;
+				font-weight: bold;
+			}
+			.digitals table th, .digitals table td{
+				border: 1px solid lightgray;
+				padding: 1px 2px;
+			}
+			.digitals .lcn{
+				width: 28px;
+				font-family: 'Roboto', sans-serif;
+				font-size: 9px;
+				text-align: center;
+				font-weight: bold;
+				padding: 0px;
+			}
+			.digitals .name{
+				width: 200px;
+				font-family: 'Roboto', sans-serif;
+				font-size: 9px;
+				text-align: left;
+				font-weight: bold;
+				padding: 0px;
+			}		
+			.digitals .feature{
+				font-family: 'Roboto', sans-serif;
+				font-size: 9px;
+				text-align: left;			
+			}		
+			.digitals .new{
+				width: 10px;
+				text-align: center;
+				font-family: 'Roboto', sans-serif;
+				font-weight: bold;
+				font-size: 9px;			
+			}
+
+.advertising{
+	margin-top: 20px;
+	width: 100%;
+	height: 600px;
+	border: 0px solid red;
+}
+	.advertising img{
+		max-width: 782px;
+		margin: 10px auto;
+		border: 0px solid red;
+	}
+
+
+

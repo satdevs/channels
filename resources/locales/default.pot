@@ -1,0 +1,2461 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2021-11-24 14:16+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./src/Controller/Admin/AckeysController.php:29
+#: ./src/Controller/Admin/AckeysController.php:44
+msgid "Ackeys"
+msgstr ""
+
+#: ./src/Controller/Admin/AckeysController.php:194
+#: ./src/Controller/Admin/AckeysController.php:215
+#: ./src/Controller/Admin/AckeysController.php:253
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:79
+msgid "Ackey"
+msgstr ""
+
+#: ./src/Controller/Admin/AckeysController.php:221
+#: ./src/Controller/Admin/AckeysController.php:266
+#: ./src/Controller/Admin/BandsController.php:224
+#: ./src/Controller/Admin/BandsController.php:272
+#: ./src/Controller/Admin/CitiesController.php:223
+#: ./src/Controller/Admin/CitiesController.php:273
+#: ./src/Controller/Admin/FeaturesController.php:259
+#: ./src/Controller/Admin/FeaturesController.php:311
+#: ./src/Controller/Admin/HeadstationsController.php:221
+#: ./src/Controller/Admin/HeadstationsController.php:268
+#: ./src/Controller/Admin/LanguagesController.php:243
+#: ./src/Controller/Admin/LanguagesController.php:295
+#: ./src/Controller/Admin/LogsController.php:222
+#: ./src/Controller/Admin/LogsController.php:275
+#: ./src/Controller/Admin/MulticastSourcesController.php:244
+#: ./src/Controller/Admin/MulticastSourcesController.php:299
+#: ./src/Controller/Admin/MyusersController.php:228
+#: ./src/Controller/Admin/MyusersController.php:275
+#: ./src/Controller/Admin/PackagegroupsController.php:221
+#: ./src/Controller/Admin/PackagegroupsController.php:268
+#: ./src/Controller/Admin/PackagesController.php:264
+#: ./src/Controller/Admin/PackagesController.php:319
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:241
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:296
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:248
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:304
+#: ./src/Controller/Admin/ProgramsController.php:279
+#: ./src/Controller/Admin/ProgramsController.php:335
+#: ./src/Controller/Admin/TrackingsController.php:222
+#: ./src/Controller/Admin/TrackingsController.php:278
+#: ./src/Controller/Admin/VersionsController.php:982
+#: ./src/Controller/Admin/VersionsController.php:1032
+msgid "Has been saved."
+msgstr ""
+
+#: ./src/Controller/Admin/AckeysController.php:238
+#: ./src/Controller/Admin/AckeysController.php:283
+#: ./src/Controller/Admin/BandsController.php:243
+#: ./src/Controller/Admin/BandsController.php:289
+#: ./src/Controller/Admin/CitiesController.php:242
+#: ./src/Controller/Admin/CitiesController.php:290
+#: ./src/Controller/Admin/FeaturesController.php:278
+#: ./src/Controller/Admin/FeaturesController.php:328
+#: ./src/Controller/Admin/HeadstationsController.php:240
+#: ./src/Controller/Admin/HeadstationsController.php:285
+#: ./src/Controller/Admin/LanguagesController.php:262
+#: ./src/Controller/Admin/LanguagesController.php:312
+#: ./src/Controller/Admin/LogsController.php:241
+#: ./src/Controller/Admin/LogsController.php:292
+#: ./src/Controller/Admin/MulticastSourcesController.php:263
+#: ./src/Controller/Admin/MulticastSourcesController.php:316
+#: ./src/Controller/Admin/MyusersController.php:247
+#: ./src/Controller/Admin/MyusersController.php:291
+#: ./src/Controller/Admin/PackagegroupsController.php:240
+#: ./src/Controller/Admin/PackagegroupsController.php:285
+#: ./src/Controller/Admin/PackagesController.php:283
+#: ./src/Controller/Admin/PackagesController.php:335
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:260
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:313
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:267
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:321
+#: ./src/Controller/Admin/ProgramsController.php:298
+#: ./src/Controller/Admin/ProgramsController.php:352
+#: ./src/Controller/Admin/TrackingsController.php:241
+#: ./src/Controller/Admin/TrackingsController.php:295
+#: ./src/Controller/Admin/VersionsController.php:1001
+#: ./src/Controller/Admin/VersionsController.php:1049
+msgid "Could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/Admin/AckeysController.php:308
+msgid "You can not delete ackey!"
+msgstr ""
+
+#: ./src/Controller/Admin/AppController.php:119
+#: ./src/Controller/AppController.php:108
+msgid "Super User"
+msgstr ""
+
+#: ./src/Controller/Admin/AppController.php:119
+#: ./src/Controller/AppController.php:108
+msgid "Admin"
+msgstr ""
+
+#: ./src/Controller/Admin/AppController.php:119
+#: ./src/Controller/AppController.php:108
+msgid "Co-Worker"
+msgstr ""
+
+#: ./src/Controller/Admin/AppController.php:119
+#: ./src/Controller/AppController.php:108
+msgid "User"
+msgstr ""
+
+#: ./src/Controller/Admin/BandsController.php:29
+#: ./src/Controller/Admin/BandsController.php:44
+msgid "Bands"
+msgstr ""
+
+#: ./src/Controller/Admin/BandsController.php:194
+#: ./src/Controller/Admin/BandsController.php:215
+#: ./src/Controller/Admin/BandsController.php:258
+#: ./templates/Admin/Bands/add.php:41
+#: ./templates/Admin/Bands/edit.php:42
+#: ./templates/Admin/Bands/view.php:58
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:66
+#: ./templates/Admin/Packages/view.php:378
+#: ./templates/Admin/Packages/view.php:457
+msgid "Band"
+msgstr ""
+
+#: ./src/Controller/Admin/BandsController.php:314
+msgid "You can not delete band!"
+msgstr ""
+
+#: ./src/Controller/Admin/CitiesController.php:29
+#: ./src/Controller/Admin/CitiesController.php:45
+#: ./src/Controller/CitiesController.php:28
+#: ./templates/Admin/Headstations/view.php:215
+msgid "Cities"
+msgstr ""
+
+#: ./src/Controller/Admin/CitiesController.php:196
+#: ./src/Controller/Admin/CitiesController.php:217
+#: ./src/Controller/Admin/CitiesController.php:260
+msgid "City"
+msgstr ""
+
+#: ./src/Controller/Admin/CitiesController.php:318
+msgid "You can not delete city!"
+msgstr ""
+
+#: ./src/Controller/Admin/FeaturesController.php:29
+#: ./src/Controller/Admin/FeaturesController.php:49
+msgid "Features"
+msgstr ""
+
+#: ./src/Controller/Admin/FeaturesController.php:42
+#: ./src/Controller/Admin/FeaturesController.php:202
+#: ./src/Controller/Admin/FeaturesController.php:248
+#: ./src/Controller/Admin/FeaturesController.php:294
+#: ./src/Controller/Admin/LanguagesController.php:42
+#: ./src/Controller/Admin/LanguagesController.php:202
+#: ./src/Controller/Admin/LanguagesController.php:231
+#: ./src/Controller/Admin/LanguagesController.php:278
+#: ./src/Controller/Admin/MulticastSourcesController.php:42
+#: ./src/Controller/Admin/MulticastSourcesController.php:204
+#: ./src/Controller/Admin/MulticastSourcesController.php:232
+#: ./src/Controller/Admin/MulticastSourcesController.php:282
+#: ./src/Controller/Admin/PackagesController.php:42
+#: ./src/Controller/Admin/PackagesController.php:209
+#: ./src/Controller/Admin/PackagesController.php:251
+#: ./src/Controller/Admin/PackagesController.php:302
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:42
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:204
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:230
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:279
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:43
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:210
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:236
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:286
+#: ./src/Controller/Admin/ProgramsController.php:42
+#: ./src/Controller/Admin/ProgramsController.php:225
+#: ./src/Controller/Admin/ProgramsController.php:268
+#: ./src/Controller/Admin/ProgramsController.php:318
+msgid "Please choose version!"
+msgstr ""
+
+#: ./src/Controller/Admin/FeaturesController.php:206
+#: ./src/Controller/Admin/FeaturesController.php:252
+#: ./src/Controller/Admin/FeaturesController.php:298
+#: ./templates/Admin/Programs/view.php:50
+#: ./templates/Cities/pdf/digitals.php:96
+#: ./templates/Cities/pdf/digitals.php:134
+#: ./templates/Cities/pdf/digitals.php:223
+msgid "Feature"
+msgstr ""
+
+#: ./src/Controller/Admin/FeaturesController.php:351
+#: ./src/Controller/Admin/LanguagesController.php:335
+#: ./src/Controller/Admin/LogsController.php:320
+#: ./src/Controller/Admin/MulticastSourcesController.php:342
+#: ./src/Controller/Admin/MyusersController.php:313
+#: ./src/Controller/Admin/PackagegroupsController.php:307
+#: ./src/Controller/Admin/PackagesController.php:361
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:339
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:346
+#: ./src/Controller/Admin/ProgramsController.php:380
+#: ./src/Controller/Admin/TrackingsController.php:326
+#: ./src/Controller/Admin/VersionsController.php:1114
+msgid "Has been deleted."
+msgstr ""
+
+#: ./src/Controller/Admin/FeaturesController.php:354
+#: ./src/Controller/Admin/LanguagesController.php:338
+#: ./src/Controller/Admin/LogsController.php:323
+#: ./src/Controller/Admin/MulticastSourcesController.php:345
+#: ./src/Controller/Admin/MyusersController.php:316
+#: ./src/Controller/Admin/PackagegroupsController.php:310
+#: ./src/Controller/Admin/PackagesController.php:380
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:342
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:349
+#: ./src/Controller/Admin/ProgramsController.php:383
+#: ./src/Controller/Admin/TrackingsController.php:329
+#: ./src/Controller/Admin/VersionsController.php:1117
+msgid "Could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/Admin/FeaturesController.php:357
+#: ./src/Controller/Admin/LanguagesController.php:341
+#: ./src/Controller/Admin/MulticastSourcesController.php:348
+msgid "Could not be deleted. The source has it's programs."
+msgstr ""
+
+#: ./src/Controller/Admin/FilesController.php:17
+msgid "Files"
+msgstr ""
+
+#: ./src/Controller/Admin/FilesController.php:26
+msgid "File upload for channels advertisment"
+msgstr ""
+
+#: ./src/Controller/Admin/FilesController.php:41
+msgid "Image upload successful. If the uploaded image does not appear, press Ctrl + F5 to refresh."
+msgstr ""
+
+#: ./src/Controller/Admin/HeadstationsController.php:29
+#: ./src/Controller/Admin/HeadstationsController.php:44
+msgid "Headstations"
+msgstr ""
+
+#: ./src/Controller/Admin/HeadstationsController.php:194
+#: ./src/Controller/Admin/HeadstationsController.php:215
+#: ./src/Controller/Admin/HeadstationsController.php:255
+#: ./templates/Admin/Cities/view.php:42
+#: ./templates/Admin/Packages/view.php:50
+#: ./templates/Admin/Versions/view.php:42
+msgid "Headstation"
+msgstr ""
+
+#: ./src/Controller/Admin/HeadstationsController.php:310
+msgid "You cannot delete headstation!"
+msgstr ""
+
+#: ./src/Controller/Admin/LanguagesController.php:29
+#: ./src/Controller/Admin/LanguagesController.php:49
+msgid "Languages"
+msgstr ""
+
+#: ./src/Controller/Admin/LanguagesController.php:206
+#: ./src/Controller/Admin/LanguagesController.php:235
+#: ./src/Controller/Admin/LanguagesController.php:282
+#: ./templates/Admin/Programs/view.php:58
+#: ./templates/Cities/pdf/digitals.php:97
+#: ./templates/Cities/pdf/digitals.php:135
+msgid "Language"
+msgstr ""
+
+#: ./src/Controller/Admin/LogsController.php:29
+#: ./src/Controller/Admin/LogsController.php:44
+msgid "Logs"
+msgstr ""
+
+#: ./src/Controller/Admin/LogsController.php:195
+#: ./src/Controller/Admin/LogsController.php:216
+#: ./src/Controller/Admin/LogsController.php:262
+msgid "Log"
+msgstr ""
+
+#: ./src/Controller/Admin/MulticastSourcesController.php:29
+#: ./src/Controller/Admin/MulticastSourcesController.php:49
+msgid "MulticastSources"
+msgstr ""
+
+#: ./src/Controller/Admin/MulticastSourcesController.php:208
+#: ./src/Controller/Admin/MulticastSourcesController.php:236
+#: ./src/Controller/Admin/MulticastSourcesController.php:286
+#: ./templates/Admin/Programs/view.php:66
+msgid "MulticastSource"
+msgstr ""
+
+#: ./src/Controller/Admin/MyusersController.php:28
+#: ./src/Controller/Admin/MyusersController.php:43
+msgid "MyUsers"
+msgstr ""
+
+#: ./src/Controller/Admin/MyusersController.php:197
+#: ./src/Controller/Admin/MyusersController.php:222
+#: ./src/Controller/Admin/MyusersController.php:262
+msgid "Myuser"
+msgstr ""
+
+#: ./src/Controller/Admin/PackagegroupsController.php:29
+#: ./src/Controller/Admin/PackagegroupsController.php:44
+msgid "Packagegroups"
+msgstr ""
+
+#: ./src/Controller/Admin/PackagegroupsController.php:194
+#: ./src/Controller/Admin/PackagegroupsController.php:215
+#: ./src/Controller/Admin/PackagegroupsController.php:255
+#: ./templates/Admin/Packages/add.php:65
+#: ./templates/Admin/Packages/edit.php:65
+#: ./templates/Admin/Packages/view.php:58
+msgid "Packagegroup"
+msgstr ""
+
+#: ./src/Controller/Admin/PackagesController.php:29
+#: ./src/Controller/Admin/PackagesController.php:49
+#: ./templates/Admin/Headstations/view.php:220
+#: ./templates/Admin/Programs/add.php:93
+#: ./templates/Admin/Programs/edit.php:93
+#: ./templates/Admin/Programs/view.php:309
+#: ./templates/Admin/Versions/view.php:203
+msgid "Packages"
+msgstr ""
+
+#: ./src/Controller/Admin/PackagesController.php:213
+#: ./src/Controller/Admin/PackagesController.php:255
+#: ./src/Controller/Admin/PackagesController.php:306
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:50
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:50
+msgid "Package"
+msgstr ""
+
+#: ./src/Controller/Admin/PackagesController.php:369
+msgid "Analogs has been deleted."
+msgstr ""
+
+#: ./src/Controller/Admin/PackagesController.php:374
+msgid "Digitals has been deleted."
+msgstr ""
+
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:29
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:49
+msgid "PackagesProgramsAnalogs"
+msgstr ""
+
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:208
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:234
+#: ./src/Controller/Admin/PackagesProgramsAnalogsController.php:283
+msgid "PackagesProgramsAnalog"
+msgstr ""
+
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:31
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:50
+msgid "PackagesProgramsDigitals"
+msgstr ""
+
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:214
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:240
+#: ./src/Controller/Admin/PackagesProgramsDigitalsController.php:290
+msgid "PackagesProgramsDigital"
+msgstr ""
+
+#: ./src/Controller/Admin/ProgramsController.php:29
+#: ./src/Controller/Admin/ProgramsController.php:49
+#: ./templates/Admin/Features/view.php:138
+#: ./templates/Admin/Languages/view.php:138
+#: ./templates/Admin/MulticastSources/view.php:238
+#: ./templates/Admin/Packages/add.php:146
+#: ./templates/Admin/Packages/edit.php:148
+#: ./templates/Admin/Packages/view.php:284
+#: ./templates/Admin/Versions/view.php:208
+msgid "Programs"
+msgstr ""
+
+#: ./src/Controller/Admin/ProgramsController.php:229
+#: ./src/Controller/Admin/ProgramsController.php:272
+#: ./src/Controller/Admin/ProgramsController.php:322
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:58
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:58
+#: ./templates/Admin/Packages/view.php:377
+#: ./templates/Admin/Packages/view.php:456
+#: ./templates/Cities/pdf/digitals.php:92
+#: ./templates/Cities/pdf/digitals.php:130
+#: ./templates/Cities/pdf/digitals.php:219
+msgid "Program"
+msgstr ""
+
+#: ./src/Controller/Admin/ProgramsController.php:405
+msgid "Out of order ;-)!"
+msgstr ""
+
+#: ./src/Controller/Admin/TrackingsController.php:29
+#: ./src/Controller/Admin/TrackingsController.php:44
+msgid "Trackings"
+msgstr ""
+
+#: ./src/Controller/Admin/TrackingsController.php:195
+#: ./src/Controller/Admin/TrackingsController.php:216
+#: ./src/Controller/Admin/TrackingsController.php:265
+msgid "Tracking"
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:32
+#: ./src/Controller/Admin/VersionsController.php:796
+#: ./templates/Admin/Headstations/view.php:225
+msgid "Versions"
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:63
+#: ./src/Controller/Admin/VersionsController.php:577
+#: ./src/Controller/Admin/VersionsController.php:953
+#: ./src/Controller/Admin/VersionsController.php:976
+#: ./src/Controller/Admin/VersionsController.php:1019
+#: ./templates/Admin/Ackeys/view.php:42
+#: ./templates/Admin/MulticastSources/view.php:42
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:42
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:42
+#: ./templates/Admin/Packages/view.php:42
+#: ./templates/Admin/Programs/view.php:42
+#: ./templates/Admin/Trackings/view.php:42
+msgid "Version"
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:143
+#: ./src/Controller/Admin/VersionsController.php:145
+msgid "multicast source"
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:143
+#: ./src/Controller/Admin/VersionsController.php:191
+#: ./src/Controller/Admin/VersionsController.php:238
+#: ./src/Controller/Admin/VersionsController.php:284
+#: ./src/Controller/Admin/VersionsController.php:365
+#: ./src/Controller/Admin/VersionsController.php:426
+#: ./src/Controller/Admin/VersionsController.php:488
+msgid "has been saved."
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:145
+#: ./src/Controller/Admin/VersionsController.php:193
+#: ./src/Controller/Admin/VersionsController.php:240
+#: ./src/Controller/Admin/VersionsController.php:286
+#: ./src/Controller/Admin/VersionsController.php:367
+#: ./src/Controller/Admin/VersionsController.php:428
+#: ./src/Controller/Admin/VersionsController.php:490
+msgid "could not be saved."
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:191
+#: ./src/Controller/Admin/VersionsController.php:193
+msgid "feature"
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:238
+#: ./src/Controller/Admin/VersionsController.php:240
+msgid "language"
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:284
+#: ./src/Controller/Admin/VersionsController.php:286
+msgid "package"
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:365
+#: ./src/Controller/Admin/VersionsController.php:367
+msgid "program"
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:426
+#: ./src/Controller/Admin/VersionsController.php:428
+msgid "analog package program"
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:488
+#: ./src/Controller/Admin/VersionsController.php:490
+msgid "digital package program"
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:536
+msgid "Wrong parameters"
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:546
+msgid "The current version has been set."
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:554
+msgid "Please select version."
+msgstr ""
+
+#: ./src/Controller/Admin/VersionsController.php:1076
+msgid "This is the current version! Could not be deleted."
+msgstr ""
+
+#: ./src/Controller/CitiesController.php:222
+msgid "No city found."
+msgstr ""
+
+#: ./src/Controller/CitiesController.php:247
+msgid "No active version found for city."
+msgstr ""
+
+#: ./src/Model/Table/CitiesTable.php:109
+#: ./src/Model/Table/HeadstationsTable.php:121
+#: ./src/Model/Table/MulticastSourcesTable.php:131
+#: ./src/Model/Table/VersionsTable.php:171
+msgid "The name field must be unique"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/add.php:22
+#: ./templates/Admin/Bands/add.php:22
+#: ./templates/Admin/Cities/add.php:22
+#: ./templates/Admin/Features/add.php:22
+#: ./templates/Admin/Headstations/add.php:22
+#: ./templates/Admin/Languages/add.php:22
+#: ./templates/Admin/Logs/add.php:22
+#: ./templates/Admin/MulticastSources/add.php:22
+#: ./templates/Admin/MyUsers/add.php:22
+#: ./templates/Admin/Packagegroups/add.php:22
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:22
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:22
+#: ./templates/Admin/Packages/add.php:22
+#: ./templates/Admin/Programs/add.php:25
+#: ./templates/Admin/Trackings/add.php:22
+#: ./templates/Admin/Versions/add.php:22
+msgid "Add"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/add.php:33
+#: ./templates/Admin/Ackeys/edit.php:33
+#: ./templates/Admin/Ackeys/view.php:51
+#: ./templates/Admin/Ackeys/view.php:167
+#: ./templates/Admin/Bands/add.php:33
+#: ./templates/Admin/Bands/edit.php:34
+#: ./templates/Admin/Bands/view.php:43
+#: ./templates/Admin/Bands/view.php:241
+#: ./templates/Admin/Cities/add.php:40
+#: ./templates/Admin/Cities/edit.php:40
+#: ./templates/Admin/Cities/view.php:51
+#: ./templates/Admin/Features/add.php:32
+#: ./templates/Admin/Features/edit.php:32
+#: ./templates/Admin/Features/view.php:43
+#: ./templates/Admin/Features/view.php:158
+#: ./templates/Admin/Headstations/add.php:32
+#: ./templates/Admin/Headstations/edit.php:32
+#: ./templates/Admin/Headstations/view.php:43
+#: ./templates/Admin/Headstations/view.php:245
+#: ./templates/Admin/Headstations/view.php:306
+#: ./templates/Admin/Headstations/view.php:373
+#: ./templates/Admin/Languages/add.php:32
+#: ./templates/Admin/Languages/edit.php:32
+#: ./templates/Admin/Languages/view.php:43
+#: ./templates/Admin/Languages/view.php:158
+#: ./templates/Admin/Logs/add.php:56
+#: ./templates/Admin/Logs/edit.php:56
+#: ./templates/Admin/Logs/view.php:58
+#: ./templates/Admin/MulticastSources/add.php:33
+#: ./templates/Admin/MulticastSources/edit.php:33
+#: ./templates/Admin/MulticastSources/view.php:51
+#: ./templates/Admin/MulticastSources/view.php:258
+#: ./templates/Admin/Packagegroups/add.php:32
+#: ./templates/Admin/Packagegroups/edit.php:32
+#: ./templates/Admin/Packagegroups/view.php:43
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:65
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:65
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:75
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:67
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:67
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:88
+#: ./templates/Admin/Packages/view.php:82
+#: ./templates/Admin/Packages/view.php:314
+#: ./templates/Admin/Packages/view.php:379
+#: ./templates/Admin/Packages/view.php:458
+#: ./templates/Admin/Programs/add.php:45
+#: ./templates/Admin/Programs/edit.php:45
+#: ./templates/Admin/Programs/view.php:75
+#: ./templates/Admin/Programs/view.php:340
+#: ./templates/Admin/Programs/view.php:405
+#: ./templates/Admin/Programs/view.php:480
+#: ./templates/Admin/Trackings/add.php:40
+#: ./templates/Admin/Trackings/edit.php:40
+#: ./templates/Admin/Trackings/view.php:51
+#: ./templates/Admin/Versions/add.php:32
+#: ./templates/Admin/Versions/edit.php:33
+#: ./templates/Admin/Versions/view.php:51
+#: ./templates/Admin/Versions/view.php:238
+#: ./templates/Admin/Versions/view.php:289
+#: ./templates/Admin/Versions/view.php:346
+#: ./templates/Admin/Versions/view.php:406
+#: ./templates/Admin/Versions/view.php:462
+#: ./templates/Admin/Versions/view.php:519
+msgid "Name"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/add.php:35
+#: ./templates/Admin/Ackeys/add.php:43
+#: ./templates/Admin/Ackeys/edit.php:35
+#: ./templates/Admin/Ackeys/edit.php:43
+#: ./templates/Admin/Bands/edit.php:36
+#: ./templates/Admin/Bands/edit.php:44
+#: ./templates/Admin/Cities/add.php:42
+#: ./templates/Admin/Cities/edit.php:42
+#: ./templates/Admin/Features/add.php:34
+#: ./templates/Admin/Features/edit.php:34
+#: ./templates/Admin/Headstations/add.php:34
+#: ./templates/Admin/Headstations/add.php:42
+#: ./templates/Admin/Headstations/add.php:50
+#: ./templates/Admin/Headstations/add.php:58
+#: ./templates/Admin/Headstations/edit.php:34
+#: ./templates/Admin/Headstations/edit.php:42
+#: ./templates/Admin/Headstations/edit.php:50
+#: ./templates/Admin/Headstations/edit.php:58
+#: ./templates/Admin/Languages/add.php:34
+#: ./templates/Admin/Languages/edit.php:34
+#: ./templates/Admin/Logs/add.php:50
+#: ./templates/Admin/Logs/add.php:58
+#: ./templates/Admin/Logs/edit.php:50
+#: ./templates/Admin/Logs/edit.php:58
+#: ./templates/Admin/MulticastSources/add.php:35
+#: ./templates/Admin/MulticastSources/add.php:43
+#: ./templates/Admin/MulticastSources/add.php:51
+#: ./templates/Admin/MulticastSources/add.php:59
+#: ./templates/Admin/MulticastSources/add.php:67
+#: ./templates/Admin/MulticastSources/add.php:75
+#: ./templates/Admin/MulticastSources/edit.php:35
+#: ./templates/Admin/MulticastSources/edit.php:43
+#: ./templates/Admin/MulticastSources/edit.php:51
+#: ./templates/Admin/MulticastSources/edit.php:59
+#: ./templates/Admin/MulticastSources/edit.php:67
+#: ./templates/Admin/MulticastSources/edit.php:75
+#: ./templates/Admin/MyUsers/add.php:53
+#: ./templates/Admin/MyUsers/add.php:60
+#: ./templates/Admin/MyUsers/add.php:77
+#: ./templates/Admin/MyUsers/add.php:85
+#: ./templates/Admin/MyUsers/edit.php:53
+#: ./templates/Admin/MyUsers/edit.php:70
+#: ./templates/Admin/MyUsers/edit.php:78
+#: ./templates/Admin/Packagegroups/add.php:34
+#: ./templates/Admin/Packagegroups/edit.php:34
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:67
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:83
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:107
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:115
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:67
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:83
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:107
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:115
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:69
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:77
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:109
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:141
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:69
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:77
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:109
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:141
+#: ./templates/Admin/Programs/add.php:47
+#: ./templates/Admin/Programs/add.php:55
+#: ./templates/Admin/Programs/add.php:138
+#: ./templates/Admin/Programs/add.php:146
+#: ./templates/Admin/Programs/add.php:154
+#: ./templates/Admin/Programs/add.php:162
+#: ./templates/Admin/Programs/add.php:170
+#: ./templates/Admin/Programs/add.php:178
+#: ./templates/Admin/Programs/add.php:186
+#: ./templates/Admin/Programs/edit.php:47
+#: ./templates/Admin/Programs/edit.php:55
+#: ./templates/Admin/Programs/edit.php:138
+#: ./templates/Admin/Programs/edit.php:146
+#: ./templates/Admin/Programs/edit.php:154
+#: ./templates/Admin/Programs/edit.php:162
+#: ./templates/Admin/Programs/edit.php:170
+#: ./templates/Admin/Programs/edit.php:178
+#: ./templates/Admin/Programs/edit.php:186
+#: ./templates/Admin/Trackings/add.php:42
+#: ./templates/Admin/Trackings/edit.php:42
+#: ./templates/Admin/Versions/add.php:34
+#: ./templates/Admin/Versions/edit.php:35
+msgid ""
+msgstr ""
+
+#: ./templates/Admin/Ackeys/add.php:41
+#: ./templates/Admin/Ackeys/edit.php:41
+#: ./templates/Admin/Ackeys/view.php:66
+#: ./templates/Admin/Versions/view.php:239
+msgid "Value"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/add.php:51
+#: ./templates/Admin/Ackeys/edit.php:51
+#: ./templates/Admin/Ackeys/view.php:173
+#: ./templates/Admin/Bands/add.php:84
+#: ./templates/Admin/Bands/edit.php:85
+#: ./templates/Admin/Bands/view.php:249
+#: ./templates/Admin/Cities/add.php:58
+#: ./templates/Admin/Cities/edit.php:58
+#: ./templates/Admin/Features/add.php:52
+#: ./templates/Admin/Features/edit.php:52
+#: ./templates/Admin/Headstations/add.php:94
+#: ./templates/Admin/Headstations/edit.php:94
+#: ./templates/Admin/Headstations/view.php:247
+#: ./templates/Admin/Headstations/view.php:309
+#: ./templates/Admin/Headstations/view.php:378
+#: ./templates/Admin/Languages/add.php:42
+#: ./templates/Admin/Languages/edit.php:42
+#: ./templates/Admin/MulticastSources/add.php:101
+#: ./templates/Admin/MulticastSources/edit.php:101
+#: ./templates/Admin/MulticastSources/view.php:259
+#: ./templates/Admin/Packagegroups/add.php:42
+#: ./templates/Admin/Packagegroups/edit.php:42
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:131
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:131
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:157
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:157
+#: ./templates/Admin/Packages/add.php:122
+#: ./templates/Admin/Packages/edit.php:124
+#: ./templates/Admin/Packages/view.php:317
+#: ./templates/Admin/Packages/view.php:382
+#: ./templates/Admin/Packages/view.php:462
+#: ./templates/Admin/Programs/add.php:108
+#: ./templates/Admin/Programs/edit.php:108
+#: ./templates/Admin/Programs/view.php:344
+#: ./templates/Admin/Programs/view.php:413
+#: ./templates/Admin/Programs/view.php:490
+#: ./templates/Admin/Versions/add.php:110
+#: ./templates/Admin/Versions/edit.php:96
+msgid "Visible"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/add.php:57
+#: ./templates/Admin/Ackeys/edit.php:57
+#: ./templates/Admin/Ackeys/view.php:81
+#: ./templates/Admin/Bands/add.php:90
+#: ./templates/Admin/Bands/edit.php:91
+#: ./templates/Admin/Bands/view.php:140
+#: ./templates/Admin/Cities/add.php:64
+#: ./templates/Admin/Cities/edit.php:64
+#: ./templates/Admin/Cities/view.php:66
+#: ./templates/Admin/Features/add.php:58
+#: ./templates/Admin/Features/edit.php:58
+#: ./templates/Admin/Features/view.php:73
+#: ./templates/Admin/Headstations/add.php:100
+#: ./templates/Admin/Headstations/edit.php:100
+#: ./templates/Admin/Headstations/view.php:133
+#: ./templates/Admin/Headstations/view.php:248
+#: ./templates/Admin/Headstations/view.php:310
+#: ./templates/Admin/Headstations/view.php:379
+#: ./templates/Admin/Languages/add.php:48
+#: ./templates/Admin/Languages/edit.php:48
+#: ./templates/Admin/Languages/view.php:58
+#: ./templates/Admin/MulticastSources/add.php:107
+#: ./templates/Admin/MulticastSources/edit.php:107
+#: ./templates/Admin/MulticastSources/view.php:156
+#: ./templates/Admin/Packagegroups/add.php:48
+#: ./templates/Admin/Packagegroups/edit.php:48
+#: ./templates/Admin/Packagegroups/view.php:58
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:137
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:137
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:180
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:163
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:163
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:238
+#: ./templates/Admin/Packages/add.php:128
+#: ./templates/Admin/Packages/edit.php:130
+#: ./templates/Admin/Packages/view.php:187
+#: ./templates/Admin/Packages/view.php:318
+#: ./templates/Admin/Packages/view.php:383
+#: ./templates/Admin/Packages/view.php:463
+#: ./templates/Admin/Programs/add.php:114
+#: ./templates/Admin/Programs/edit.php:114
+#: ./templates/Admin/Programs/view.php:210
+#: ./templates/Admin/Programs/view.php:345
+#: ./templates/Admin/Programs/view.php:414
+#: ./templates/Admin/Programs/view.php:491
+#: ./templates/Admin/Versions/add.php:116
+#: ./templates/Admin/Versions/edit.php:102
+#: ./templates/Admin/Versions/view.php:66
+msgid "Pos"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/add.php:67
+#: ./templates/Admin/Ackeys/edit.php:67
+#: ./templates/Admin/Bands/add.php:110
+#: ./templates/Admin/Bands/edit.php:111
+#: ./templates/Admin/Cities/add.php:74
+#: ./templates/Admin/Cities/edit.php:74
+#: ./templates/Admin/Features/add.php:68
+#: ./templates/Admin/Features/edit.php:68
+#: ./templates/Admin/Headstations/add.php:110
+#: ./templates/Admin/Headstations/edit.php:110
+#: ./templates/Admin/Languages/add.php:68
+#: ./templates/Admin/Languages/edit.php:68
+#: ./templates/Admin/Logs/add.php:74
+#: ./templates/Admin/Logs/edit.php:74
+#: ./templates/Admin/MulticastSources/add.php:117
+#: ./templates/Admin/MulticastSources/edit.php:117
+#: ./templates/Admin/MyUsers/add.php:189
+#: ./templates/Admin/MyUsers/edit.php:180
+#: ./templates/Admin/Packagegroups/add.php:58
+#: ./templates/Admin/Packagegroups/edit.php:58
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:147
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:147
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:172
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:173
+#: ./templates/Admin/Packages/add.php:157
+#: ./templates/Admin/Packages/edit.php:159
+#: ./templates/Admin/Programs/add.php:205
+#: ./templates/Admin/Programs/edit.php:205
+#: ./templates/Admin/Trackings/add.php:66
+#: ./templates/Admin/Trackings/edit.php:66
+#: ./templates/Admin/Versions/add.php:126
+#: ./templates/Admin/Versions/edit.php:112
+msgid "Save and back to list"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/add.php:67
+#: ./templates/Admin/Ackeys/edit.php:67
+#: ./templates/Admin/Bands/add.php:110
+#: ./templates/Admin/Bands/edit.php:111
+#: ./templates/Admin/Cities/add.php:74
+#: ./templates/Admin/Cities/edit.php:74
+#: ./templates/Admin/Features/add.php:68
+#: ./templates/Admin/Features/edit.php:68
+#: ./templates/Admin/Files/upload.php:32
+#: ./templates/Admin/Headstations/add.php:110
+#: ./templates/Admin/Headstations/edit.php:110
+#: ./templates/Admin/Languages/add.php:68
+#: ./templates/Admin/Languages/edit.php:68
+#: ./templates/Admin/Logs/add.php:74
+#: ./templates/Admin/Logs/edit.php:74
+#: ./templates/Admin/MulticastSources/add.php:117
+#: ./templates/Admin/MulticastSources/edit.php:117
+#: ./templates/Admin/MyUsers/add.php:189
+#: ./templates/Admin/MyUsers/edit.php:180
+#: ./templates/Admin/Packagegroups/add.php:58
+#: ./templates/Admin/Packagegroups/edit.php:58
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:147
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:147
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:172
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:173
+#: ./templates/Admin/Packages/add.php:157
+#: ./templates/Admin/Packages/edit.php:159
+#: ./templates/Admin/Programs/add.php:205
+#: ./templates/Admin/Programs/edit.php:205
+#: ./templates/Admin/Trackings/add.php:66
+#: ./templates/Admin/Trackings/edit.php:66
+#: ./templates/Admin/Versions/add.php:126
+#: ./templates/Admin/Versions/edit.php:112
+msgid "Save"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/add.php:68
+#: ./templates/Admin/Ackeys/edit.php:68
+#: ./templates/Admin/Ackeys/index.php:133
+#: ./templates/Admin/Ackeys/view.php:209
+#: ./templates/Admin/Bands/add.php:111
+#: ./templates/Admin/Bands/edit.php:112
+#: ./templates/Admin/Bands/index.php:145
+#: ./templates/Admin/Bands/view.php:287
+#: ./templates/Admin/Cities/add.php:75
+#: ./templates/Admin/Cities/edit.php:75
+#: ./templates/Admin/Cities/index.php:133
+#: ./templates/Admin/Features/add.php:69
+#: ./templates/Admin/Features/edit.php:69
+#: ./templates/Admin/Features/index.php:141
+#: ./templates/Admin/Features/view.php:186
+#: ./templates/Admin/Files/upload.php:33
+#: ./templates/Admin/Headstations/add.php:111
+#: ./templates/Admin/Headstations/edit.php:111
+#: ./templates/Admin/Headstations/index.php:145
+#: ./templates/Admin/Headstations/view.php:276
+#: ./templates/Admin/Headstations/view.php:343
+#: ./templates/Admin/Headstations/view.php:412
+#: ./templates/Admin/Languages/add.php:69
+#: ./templates/Admin/Languages/edit.php:69
+#: ./templates/Admin/Languages/index.php:138
+#: ./templates/Admin/Languages/view.php:188
+#: ./templates/Admin/Logs/add.php:75
+#: ./templates/Admin/Logs/edit.php:75
+#: ./templates/Admin/Logs/index.php:118
+#: ./templates/Admin/MulticastSources/add.php:118
+#: ./templates/Admin/MulticastSources/edit.php:118
+#: ./templates/Admin/MulticastSources/index.php:147
+#: ./templates/Admin/MulticastSources/view.php:283
+#: ./templates/Admin/MyUsers/add.php:190
+#: ./templates/Admin/MyUsers/edit.php:181
+#: ./templates/Admin/MyUsers/index.php:138
+#: ./templates/Admin/MyUsers/view.php:290
+#: ./templates/Admin/Packagegroups/add.php:59
+#: ./templates/Admin/Packagegroups/edit.php:59
+#: ./templates/Admin/Packagegroups/index.php:129
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:148
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:148
+#: ./templates/Admin/PackagesProgramsAnalogs/index.php:151
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:173
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:174
+#: ./templates/Admin/PackagesProgramsDigitals/index.php:149
+#: ./templates/Admin/Packages/add.php:158
+#: ./templates/Admin/Packages/edit.php:160
+#: ./templates/Admin/Packages/index.php:165
+#: ./templates/Admin/Packages/view.php:351
+#: ./templates/Admin/Packages/view.php:428
+#: ./templates/Admin/Packages/view.php:500
+#: ./templates/Admin/Programs/add.php:206
+#: ./templates/Admin/Programs/edit.php:206
+#: ./templates/Admin/Programs/index.php:174
+#: ./templates/Admin/Programs/view.php:380
+#: ./templates/Admin/Programs/view.php:452
+#: ./templates/Admin/Programs/view.php:531
+#: ./templates/Admin/Trackings/add.php:67
+#: ./templates/Admin/Trackings/edit.php:67
+#: ./templates/Admin/Trackings/index.php:119
+#: ./templates/Admin/Versions/add.php:127
+#: ./templates/Admin/Versions/edit.php:113
+#: ./templates/Admin/Versions/index.php:170
+#: ./templates/Admin/Versions/view.php:261
+#: ./templates/Admin/Versions/view.php:320
+#: ./templates/Admin/Versions/view.php:376
+#: ./templates/Admin/Versions/view.php:431
+#: ./templates/Admin/Versions/view.php:488
+#: ./templates/Admin/Versions/view.php:555
+#: ./templates/Cities/index.php:142
+msgid "Cancel"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/add.php:68
+#: ./templates/Admin/Ackeys/edit.php:68
+#: ./templates/Admin/Bands/add.php:111
+#: ./templates/Admin/Bands/edit.php:112
+#: ./templates/Admin/Cities/add.php:75
+#: ./templates/Admin/Cities/edit.php:75
+#: ./templates/Admin/Features/add.php:69
+#: ./templates/Admin/Features/edit.php:69
+#: ./templates/Admin/Files/upload.php:33
+#: ./templates/Admin/Headstations/add.php:111
+#: ./templates/Admin/Headstations/edit.php:111
+#: ./templates/Admin/Languages/add.php:69
+#: ./templates/Admin/Languages/edit.php:69
+#: ./templates/Admin/Logs/add.php:75
+#: ./templates/Admin/Logs/edit.php:75
+#: ./templates/Admin/MulticastSources/add.php:118
+#: ./templates/Admin/MulticastSources/edit.php:118
+#: ./templates/Admin/MyUsers/add.php:190
+#: ./templates/Admin/MyUsers/edit.php:181
+#: ./templates/Admin/Packagegroups/add.php:59
+#: ./templates/Admin/Packagegroups/edit.php:59
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:148
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:148
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:173
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:174
+#: ./templates/Admin/Packages/add.php:158
+#: ./templates/Admin/Packages/edit.php:160
+#: ./templates/Admin/Programs/add.php:206
+#: ./templates/Admin/Programs/edit.php:206
+#: ./templates/Admin/Trackings/add.php:67
+#: ./templates/Admin/Trackings/edit.php:67
+#: ./templates/Admin/Versions/add.php:127
+#: ./templates/Admin/Versions/edit.php:113
+msgid "Back to list without save"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/edit.php:22
+#: ./templates/Admin/Bands/edit.php:22
+#: ./templates/Admin/Cities/edit.php:22
+#: ./templates/Admin/Features/edit.php:22
+#: ./templates/Admin/Headstations/edit.php:22
+#: ./templates/Admin/Languages/edit.php:22
+#: ./templates/Admin/Logs/edit.php:22
+#: ./templates/Admin/MulticastSources/edit.php:22
+#: ./templates/Admin/MyUsers/edit.php:22
+#: ./templates/Admin/Packagegroups/edit.php:22
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:22
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:22
+#: ./templates/Admin/Packages/edit.php:22
+#: ./templates/Admin/Programs/edit.php:25
+#: ./templates/Admin/Trackings/edit.php:22
+#: ./templates/Admin/Versions/edit.php:22
+msgid "Edit"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/index.php:40
+#: ./templates/Admin/Bands/index.php:40
+#: ./templates/Admin/Cities/index.php:40
+#: ./templates/Admin/Features/index.php:41
+#: ./templates/Admin/Headstations/index.php:40
+#: ./templates/Admin/Languages/index.php:41
+#: ./templates/Admin/Logs/index.php:40
+#: ./templates/Admin/MulticastSources/index.php:41
+#: ./templates/Admin/MyUsers/index.php:41
+#: ./templates/Admin/Packagegroups/index.php:40
+#: ./templates/Admin/PackagesProgramsAnalogs/index.php:40
+#: ./templates/Admin/PackagesProgramsDigitals/index.php:40
+#: ./templates/Admin/Packages/index.php:41
+#: ./templates/Admin/Programs/index.php:41
+#: ./templates/Admin/Trackings/index.php:41
+#: ./templates/Admin/Versions/index.php:41
+#: ./templates/Plugin/CakeDC/Users/Users/index.php:30
+msgid "Index"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/index.php:42
+#: ./templates/Admin/Bands/index.php:42
+#: ./templates/Admin/Cities/index.php:42
+#: ./templates/Admin/Features/index.php:43
+#: ./templates/Admin/Headstations/index.php:42
+#: ./templates/Admin/Languages/index.php:43
+#: ./templates/Admin/Logs/index.php:42
+#: ./templates/Admin/MulticastSources/index.php:43
+#: ./templates/Admin/MyUsers/index.php:43
+#: ./templates/Admin/Packagegroups/index.php:42
+#: ./templates/Admin/PackagesProgramsAnalogs/index.php:42
+#: ./templates/Admin/PackagesProgramsDigitals/index.php:42
+#: ./templates/Admin/Packages/index.php:43
+#: ./templates/Admin/Programs/index.php:43
+#: ./templates/Admin/Trackings/index.php:43
+#: ./templates/Admin/Versions/index.php:43
+#: ./templates/Cities/index.php:42
+#: ./templates/Plugin/CakeDC/Users/Users/index.php:32
+msgid "filter"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/index.php:87
+#: ./templates/Admin/Ackeys/view.php:179
+#: ./templates/Admin/Bands/index.php:92
+#: ./templates/Admin/Bands/view.php:255
+#: ./templates/Admin/Cities/index.php:87
+#: ./templates/Admin/Features/index.php:90
+#: ./templates/Admin/Features/view.php:160
+#: ./templates/Admin/Headstations/index.php:93
+#: ./templates/Admin/Headstations/view.php:252
+#: ./templates/Admin/Headstations/view.php:315
+#: ./templates/Admin/Headstations/view.php:383
+#: ./templates/Admin/Languages/index.php:90
+#: ./templates/Admin/Languages/view.php:160
+#: ./templates/Admin/Logs/index.php:78
+#: ./templates/Admin/MulticastSources/index.php:94
+#: ./templates/Admin/MulticastSources/view.php:262
+#: ./templates/Admin/MyUsers/index.php:90
+#: ./templates/Admin/MyUsers/view.php:272
+#: ./templates/Admin/Packagegroups/index.php:84
+#: ./templates/Admin/PackagesProgramsAnalogs/index.php:92
+#: ./templates/Admin/PackagesProgramsDigitals/index.php:94
+#: ./templates/Admin/Packages/index.php:102
+#: ./templates/Admin/Packages/view.php:324
+#: ./templates/Admin/Packages/view.php:389
+#: ./templates/Admin/Packages/view.php:469
+#: ./templates/Admin/Programs/index.php:94
+#: ./templates/Admin/Programs/view.php:351
+#: ./templates/Admin/Programs/view.php:420
+#: ./templates/Admin/Programs/view.php:497
+#: ./templates/Admin/Trackings/index.php:79
+#: ./templates/Admin/Versions/index.php:95
+#: ./templates/Admin/Versions/view.php:241
+#: ./templates/Admin/Versions/view.php:296
+#: ./templates/Admin/Versions/view.php:352
+#: ./templates/Admin/Versions/view.php:410
+#: ./templates/Admin/Versions/view.php:466
+#: ./templates/Admin/Versions/view.php:527
+#: ./templates/Cities/index.php:64
+#: ./templates/Cities/index.php:90
+msgid "Actions"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/index.php:125
+#: ./templates/Admin/Ackeys/view.php:201
+#: ./templates/Admin/Bands/index.php:137
+#: ./templates/Admin/Bands/view.php:279
+#: ./templates/Admin/Cities/index.php:125
+#: ./templates/Admin/Features/index.php:132
+#: ./templates/Admin/Features/view.php:178
+#: ./templates/Admin/Headstations/index.php:137
+#: ./templates/Admin/Headstations/view.php:268
+#: ./templates/Admin/Headstations/view.php:335
+#: ./templates/Admin/Headstations/view.php:404
+#: ./templates/Admin/Languages/index.php:130
+#: ./templates/Admin/Languages/view.php:180
+#: ./templates/Admin/Logs/index.php:110
+#: ./templates/Admin/MulticastSources/index.php:139
+#: ./templates/Admin/MulticastSources/view.php:275
+#: ./templates/Admin/MyUsers/index.php:130
+#: ./templates/Admin/MyUsers/view.php:282
+#: ./templates/Admin/Packagegroups/index.php:121
+#: ./templates/Admin/PackagesProgramsAnalogs/index.php:143
+#: ./templates/Admin/PackagesProgramsDigitals/index.php:141
+#: ./templates/Admin/Packages/index.php:157
+#: ./templates/Admin/Packages/view.php:343
+#: ./templates/Admin/Packages/view.php:420
+#: ./templates/Admin/Packages/view.php:492
+#: ./templates/Admin/Programs/index.php:166
+#: ./templates/Admin/Programs/view.php:372
+#: ./templates/Admin/Programs/view.php:444
+#: ./templates/Admin/Programs/view.php:523
+#: ./templates/Admin/Trackings/index.php:111
+#: ./templates/Admin/Versions/index.php:162
+#: ./templates/Admin/Versions/view.php:253
+#: ./templates/Admin/Versions/view.php:312
+#: ./templates/Admin/Versions/view.php:368
+#: ./templates/Admin/Versions/view.php:423
+#: ./templates/Admin/Versions/view.php:480
+#: ./templates/Admin/Versions/view.php:547
+#: ./templates/Cities/index.php:134
+msgid "View this record"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/index.php:128
+#: ./templates/Admin/Ackeys/view.php:204
+#: ./templates/Admin/Bands/index.php:140
+#: ./templates/Admin/Bands/view.php:282
+#: ./templates/Admin/Cities/index.php:128
+#: ./templates/Admin/Features/index.php:135
+#: ./templates/Admin/Features/view.php:181
+#: ./templates/Admin/Headstations/index.php:140
+#: ./templates/Admin/Headstations/view.php:271
+#: ./templates/Admin/Headstations/view.php:338
+#: ./templates/Admin/Headstations/view.php:407
+#: ./templates/Admin/Languages/index.php:133
+#: ./templates/Admin/Languages/view.php:183
+#: ./templates/Admin/Logs/index.php:113
+#: ./templates/Admin/MulticastSources/index.php:142
+#: ./templates/Admin/MulticastSources/view.php:278
+#: ./templates/Admin/MyUsers/index.php:133
+#: ./templates/Admin/MyUsers/view.php:285
+#: ./templates/Admin/Packagegroups/index.php:124
+#: ./templates/Admin/PackagesProgramsAnalogs/index.php:146
+#: ./templates/Admin/PackagesProgramsDigitals/index.php:144
+#: ./templates/Admin/Packages/index.php:160
+#: ./templates/Admin/Packages/view.php:346
+#: ./templates/Admin/Packages/view.php:423
+#: ./templates/Admin/Packages/view.php:495
+#: ./templates/Admin/Programs/index.php:169
+#: ./templates/Admin/Programs/view.php:375
+#: ./templates/Admin/Programs/view.php:447
+#: ./templates/Admin/Programs/view.php:526
+#: ./templates/Admin/Trackings/index.php:114
+#: ./templates/Admin/Versions/index.php:165
+#: ./templates/Admin/Versions/view.php:256
+#: ./templates/Admin/Versions/view.php:315
+#: ./templates/Admin/Versions/view.php:371
+#: ./templates/Admin/Versions/view.php:426
+#: ./templates/Admin/Versions/view.php:483
+#: ./templates/Admin/Versions/view.php:550
+#: ./templates/Cities/index.php:137
+msgid "Edit this record"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/index.php:133
+#: ./templates/Admin/Ackeys/view.php:209
+#: ./templates/Admin/Bands/index.php:145
+#: ./templates/Admin/Bands/view.php:287
+#: ./templates/Admin/Cities/index.php:133
+#: ./templates/Admin/Features/index.php:141
+#: ./templates/Admin/Features/view.php:186
+#: ./templates/Admin/Headstations/index.php:145
+#: ./templates/Admin/Headstations/view.php:276
+#: ./templates/Admin/Headstations/view.php:343
+#: ./templates/Admin/Headstations/view.php:412
+#: ./templates/Admin/Languages/index.php:138
+#: ./templates/Admin/Languages/view.php:188
+#: ./templates/Admin/Logs/index.php:118
+#: ./templates/Admin/MulticastSources/index.php:147
+#: ./templates/Admin/MulticastSources/view.php:283
+#: ./templates/Admin/MyUsers/index.php:138
+#: ./templates/Admin/MyUsers/view.php:290
+#: ./templates/Admin/Packagegroups/index.php:129
+#: ./templates/Admin/PackagesProgramsAnalogs/index.php:151
+#: ./templates/Admin/PackagesProgramsDigitals/index.php:149
+#: ./templates/Admin/Packages/index.php:165
+#: ./templates/Admin/Packages/view.php:351
+#: ./templates/Admin/Packages/view.php:428
+#: ./templates/Admin/Packages/view.php:500
+#: ./templates/Admin/Programs/index.php:174
+#: ./templates/Admin/Programs/view.php:380
+#: ./templates/Admin/Programs/view.php:452
+#: ./templates/Admin/Programs/view.php:531
+#: ./templates/Admin/Trackings/index.php:119
+#: ./templates/Admin/Versions/index.php:170
+#: ./templates/Admin/Versions/view.php:261
+#: ./templates/Admin/Versions/view.php:320
+#: ./templates/Admin/Versions/view.php:376
+#: ./templates/Admin/Versions/view.php:431
+#: ./templates/Admin/Versions/view.php:488
+#: ./templates/Admin/Versions/view.php:555
+#: ./templates/Cities/index.php:142
+msgid "Delete this record!"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/index.php:133
+#: ./templates/Admin/Ackeys/view.php:209
+#: ./templates/Admin/Bands/index.php:145
+#: ./templates/Admin/Bands/view.php:287
+#: ./templates/Admin/Cities/index.php:133
+#: ./templates/Admin/Features/index.php:141
+#: ./templates/Admin/Features/view.php:186
+#: ./templates/Admin/Headstations/index.php:145
+#: ./templates/Admin/Headstations/view.php:276
+#: ./templates/Admin/Headstations/view.php:343
+#: ./templates/Admin/Headstations/view.php:412
+#: ./templates/Admin/Languages/index.php:138
+#: ./templates/Admin/Languages/view.php:188
+#: ./templates/Admin/Logs/index.php:118
+#: ./templates/Admin/MulticastSources/index.php:147
+#: ./templates/Admin/MulticastSources/view.php:283
+#: ./templates/Admin/MyUsers/index.php:138
+#: ./templates/Admin/MyUsers/view.php:290
+#: ./templates/Admin/Packagegroups/index.php:129
+#: ./templates/Admin/PackagesProgramsAnalogs/index.php:151
+#: ./templates/Admin/PackagesProgramsDigitals/index.php:149
+#: ./templates/Admin/Packages/index.php:165
+#: ./templates/Admin/Packages/view.php:351
+#: ./templates/Admin/Packages/view.php:428
+#: ./templates/Admin/Packages/view.php:500
+#: ./templates/Admin/Programs/index.php:174
+#: ./templates/Admin/Programs/view.php:380
+#: ./templates/Admin/Programs/view.php:452
+#: ./templates/Admin/Programs/view.php:531
+#: ./templates/Admin/Trackings/index.php:119
+#: ./templates/Admin/Versions/index.php:170
+#: ./templates/Admin/Versions/view.php:261
+#: ./templates/Admin/Versions/view.php:320
+#: ./templates/Admin/Versions/view.php:376
+#: ./templates/Admin/Versions/view.php:431
+#: ./templates/Admin/Versions/view.php:488
+#: ./templates/Admin/Versions/view.php:555
+#: ./templates/Cities/index.php:142
+msgid "You will not be able to revert this!"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/index.php:133
+#: ./templates/Admin/Ackeys/view.php:209
+#: ./templates/Admin/Bands/index.php:145
+#: ./templates/Admin/Bands/view.php:287
+#: ./templates/Admin/Cities/index.php:133
+#: ./templates/Admin/Features/index.php:141
+#: ./templates/Admin/Features/view.php:186
+#: ./templates/Admin/Headstations/index.php:145
+#: ./templates/Admin/Headstations/view.php:276
+#: ./templates/Admin/Headstations/view.php:343
+#: ./templates/Admin/Headstations/view.php:412
+#: ./templates/Admin/Languages/index.php:138
+#: ./templates/Admin/Languages/view.php:188
+#: ./templates/Admin/Logs/index.php:118
+#: ./templates/Admin/MulticastSources/index.php:147
+#: ./templates/Admin/MulticastSources/view.php:283
+#: ./templates/Admin/MyUsers/index.php:138
+#: ./templates/Admin/MyUsers/view.php:290
+#: ./templates/Admin/Packagegroups/index.php:129
+#: ./templates/Admin/PackagesProgramsAnalogs/index.php:151
+#: ./templates/Admin/PackagesProgramsDigitals/index.php:149
+#: ./templates/Admin/Packages/index.php:165
+#: ./templates/Admin/Packages/view.php:351
+#: ./templates/Admin/Packages/view.php:428
+#: ./templates/Admin/Packages/view.php:500
+#: ./templates/Admin/Programs/index.php:174
+#: ./templates/Admin/Programs/view.php:380
+#: ./templates/Admin/Programs/view.php:452
+#: ./templates/Admin/Programs/view.php:531
+#: ./templates/Admin/Trackings/index.php:119
+#: ./templates/Admin/Versions/index.php:170
+#: ./templates/Admin/Versions/view.php:261
+#: ./templates/Admin/Versions/view.php:320
+#: ./templates/Admin/Versions/view.php:376
+#: ./templates/Admin/Versions/view.php:431
+#: ./templates/Admin/Versions/view.php:488
+#: ./templates/Admin/Versions/view.php:555
+#: ./templates/Cities/index.php:142
+msgid "Yes, delete it!"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/view.php:34
+#: ./templates/Admin/Bands/view.php:34
+#: ./templates/Admin/Cities/view.php:34
+#: ./templates/Admin/Features/view.php:34
+#: ./templates/Admin/Headstations/view.php:34
+#: ./templates/Admin/Languages/view.php:34
+#: ./templates/Admin/Logs/view.php:34
+#: ./templates/Admin/MulticastSources/view.php:34
+#: ./templates/Admin/Packagegroups/view.php:34
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:34
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:34
+#: ./templates/Admin/Packages/view.php:34
+#: ./templates/Admin/Programs/view.php:34
+#: ./templates/Admin/Trackings/view.php:34
+#: ./templates/Admin/Versions/view.php:34
+#: ./templates/Plugin/CakeDC/Users/Users/view.php:52
+msgid "id"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/view.php:96
+#: ./templates/Admin/Ackeys/view.php:175
+#: ./templates/Admin/Bands/view.php:185
+#: ./templates/Admin/Bands/view.php:251
+#: ./templates/Admin/Cities/view.php:81
+#: ./templates/Admin/Features/view.php:88
+#: ./templates/Admin/Headstations/view.php:148
+#: ./templates/Admin/Headstations/view.php:249
+#: ./templates/Admin/Headstations/view.php:312
+#: ./templates/Admin/Headstations/view.php:380
+#: ./templates/Admin/Languages/view.php:88
+#: ./templates/Admin/Logs/view.php:103
+#: ./templates/Admin/MulticastSources/view.php:171
+#: ./templates/Admin/MyUsers/view.php:186
+#: ./templates/Admin/MyUsers/view.php:269
+#: ./templates/Admin/Packagegroups/view.php:73
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:195
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:253
+#: ./templates/Admin/Packages/view.php:217
+#: ./templates/Admin/Packages/view.php:320
+#: ./templates/Admin/Packages/view.php:385
+#: ./templates/Admin/Packages/view.php:465
+#: ./templates/Admin/Programs/view.php:240
+#: ./templates/Admin/Programs/view.php:347
+#: ./templates/Admin/Programs/view.php:416
+#: ./templates/Admin/Programs/view.php:493
+#: ./templates/Admin/Trackings/view.php:96
+#: ./templates/Admin/Versions/view.php:126
+msgid "Created"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/view.php:111
+#: ./templates/Admin/Ackeys/view.php:176
+#: ./templates/Admin/Bands/view.php:170
+#: ./templates/Admin/Bands/view.php:252
+#: ./templates/Admin/Cities/view.php:96
+#: ./templates/Admin/Features/view.php:103
+#: ./templates/Admin/Headstations/view.php:163
+#: ./templates/Admin/Headstations/view.php:250
+#: ./templates/Admin/Headstations/view.php:313
+#: ./templates/Admin/Headstations/view.php:381
+#: ./templates/Admin/Languages/view.php:103
+#: ./templates/Admin/MulticastSources/view.php:186
+#: ./templates/Admin/MyUsers/view.php:201
+#: ./templates/Admin/MyUsers/view.php:270
+#: ./templates/Admin/Packagegroups/view.php:88
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:210
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:268
+#: ./templates/Admin/Packages/view.php:232
+#: ./templates/Admin/Packages/view.php:321
+#: ./templates/Admin/Packages/view.php:386
+#: ./templates/Admin/Packages/view.php:466
+#: ./templates/Admin/Programs/view.php:255
+#: ./templates/Admin/Programs/view.php:348
+#: ./templates/Admin/Programs/view.php:417
+#: ./templates/Admin/Programs/view.php:494
+#: ./templates/Admin/Versions/view.php:141
+msgid "Modified"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/view.php:128
+#: ./templates/Admin/Bands/view.php:202
+#: ./templates/Admin/Cities/view.php:130
+#: ./templates/Admin/Features/view.php:120
+#: ./templates/Admin/Headstations/view.php:197
+#: ./templates/Admin/Languages/view.php:120
+#: ./templates/Admin/Logs/view.php:137
+#: ./templates/Admin/MulticastSources/view.php:220
+#: ./templates/Admin/MyUsers/view.php:218
+#: ./templates/Admin/Packagegroups/view.php:105
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:244
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:302
+#: ./templates/Admin/Packages/view.php:266
+#: ./templates/Admin/Programs/view.php:289
+#: ./templates/Admin/Trackings/view.php:113
+#: ./templates/Admin/Versions/view.php:175
+#: ./templates/Plugin/CakeDC/Users/Users/view.php:154
+msgid "Back to list"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/view.php:142
+#: ./templates/Admin/Bands/view.php:216
+#: ./templates/Admin/Cities/view.php:144
+#: ./templates/Admin/Features/view.php:134
+#: ./templates/Admin/Headstations/view.php:211
+#: ./templates/Admin/Languages/view.php:134
+#: ./templates/Admin/Logs/view.php:151
+#: ./templates/Admin/MulticastSources/view.php:234
+#: ./templates/Admin/MyUsers/view.php:232
+#: ./templates/Admin/Packagegroups/view.php:119
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:258
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:316
+#: ./templates/Admin/Packages/view.php:280
+#: ./templates/Admin/Programs/view.php:305
+#: ./templates/Admin/Trackings/view.php:127
+#: ./templates/Admin/Versions/view.php:189
+msgid "Related tables"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/view.php:146
+#: ./templates/Admin/Packages/view.php:294
+#: ./templates/Admin/Programs/view.php:319
+#: ./templates/Admin/Versions/view.php:218
+msgid "Packages Programs Digitals"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/view.php:166
+#: ./templates/Admin/Bands/view.php:240
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:73
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:73
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:150
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:83
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:83
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:193
+#: ./templates/Admin/Packages/view.php:376
+#: ./templates/Admin/Packages/view.php:455
+#: ./templates/Admin/Programs/view.php:406
+#: ./templates/Admin/Programs/view.php:483
+#: ./templates/Admin/Versions/view.php:463
+#: ./templates/Admin/Versions/view.php:521
+msgid "Lcn"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/view.php:168
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:107
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:107
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:133
+#: ./templates/Admin/Programs/view.php:485
+#: ./templates/Admin/Versions/view.php:524
+msgid "Qam"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/view.php:169
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:115
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:115
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:223
+#: ./templates/Admin/Programs/view.php:486
+#: ./templates/Admin/Versions/view.php:525
+msgid "Sid"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/view.php:170
+#: ./templates/Admin/Bands/view.php:246
+#: ./templates/Admin/Cities/add.php:48
+#: ./templates/Admin/Cities/edit.php:48
+#: ./templates/Admin/Cities/view.php:111
+#: ./templates/Admin/Headstations/add.php:64
+#: ./templates/Admin/Headstations/edit.php:64
+#: ./templates/Admin/Headstations/view.php:178
+#: ./templates/Admin/Headstations/view.php:246
+#: ./templates/Admin/Headstations/view.php:374
+#: ./templates/Admin/Logs/add.php:64
+#: ./templates/Admin/Logs/edit.php:64
+#: ./templates/Admin/Logs/view.php:118
+#: ./templates/Admin/MulticastSources/add.php:81
+#: ./templates/Admin/MulticastSources/edit.php:81
+#: ./templates/Admin/MulticastSources/view.php:201
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:97
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:97
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:225
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:123
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:123
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:283
+#: ./templates/Admin/Packages/add.php:110
+#: ./templates/Admin/Packages/edit.php:112
+#: ./templates/Admin/Packages/view.php:247
+#: ./templates/Admin/Packages/view.php:380
+#: ./templates/Admin/Packages/view.php:459
+#: ./templates/Admin/Programs/add.php:192
+#: ./templates/Admin/Programs/edit.php:192
+#: ./templates/Admin/Programs/view.php:270
+#: ./templates/Admin/Programs/view.php:409
+#: ./templates/Admin/Programs/view.php:487
+#: ./templates/Admin/Versions/add.php:54
+#: ./templates/Admin/Versions/edit.php:41
+#: ./templates/Admin/Versions/view.php:156
+msgid "Comment"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/view.php:171
+#: ./templates/Admin/Bands/view.php:247
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:113
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:113
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:120
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:139
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:139
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:163
+#: ./templates/Admin/Packages/view.php:460
+#: ./templates/Admin/Programs/view.php:411
+msgid "Changed"
+msgstr ""
+
+#: ./templates/Admin/Ackeys/view.php:172
+#: ./templates/Admin/Bands/view.php:248
+#: ./templates/Admin/MulticastSources/view.php:260
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:123
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:123
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:149
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:149
+#: ./templates/Admin/Packages/view.php:381
+#: ./templates/Admin/Packages/view.php:461
+#: ./templates/Admin/Programs/view.php:412
+#: ./templates/Admin/Programs/view.php:489
+#: ./templates/Admin/Versions/view.php:464
+msgid "To Delete"
+msgstr ""
+
+#: ./templates/Admin/Bands/add.php:35
+msgid "Pl.: VHF I.; VHF III.; UHF; ..."
+msgstr ""
+
+#: ./templates/Admin/Bands/add.php:43
+msgid "Pl.: C2, C3, S2, S3, UHF21, UHF22, ..."
+msgstr ""
+
+#: ./templates/Admin/Bands/add.php:51
+#: ./templates/Admin/Bands/edit.php:52
+#: ./templates/Admin/Bands/view.php:73
+msgid "Type"
+msgstr ""
+
+#: ./templates/Admin/Bands/add.php:59
+#: ./templates/Admin/Bands/edit.php:60
+#: ./templates/Admin/Bands/view.php:95
+msgid "Video Frequency"
+msgstr ""
+
+#: ./templates/Admin/Bands/add.php:66
+#: ./templates/Admin/Bands/edit.php:67
+msgid "Bandwidth"
+msgstr ""
+
+#: ./templates/Admin/Bands/add.php:74
+#: ./templates/Admin/Bands/edit.php:75
+#: ./templates/Admin/Bands/view.php:125
+msgid "Audio Frequency"
+msgstr ""
+
+#: ./templates/Admin/Bands/add.php:99
+#: ./templates/Admin/Bands/edit.php:100
+#: ./templates/Admin/Bands/view.php:155
+msgid "Packages Programs Count"
+msgstr ""
+
+#: ./templates/Admin/Bands/view.php:110
+msgid "Band width"
+msgstr ""
+
+#: ./templates/Admin/Bands/view.php:220
+#: ./templates/Admin/Packages/view.php:289
+#: ./templates/Admin/Programs/view.php:314
+#: ./templates/Admin/Versions/view.php:213
+msgid "Packages Programs Analogs"
+msgstr ""
+
+#: ./templates/Admin/Cities/add.php:32
+#: ./templates/Admin/Cities/edit.php:32
+#: ./templates/Admin/Headstations/view.php:372
+msgid "Headstation Id"
+msgstr ""
+
+#: ./templates/Admin/Cities/add.php:50
+#: ./templates/Admin/Cities/edit.php:50
+#: ./templates/Admin/Headstations/add.php:66
+#: ./templates/Admin/Headstations/edit.php:66
+#: ./templates/Admin/Logs/add.php:66
+#: ./templates/Admin/Logs/edit.php:66
+#: ./templates/Admin/MulticastSources/add.php:83
+#: ./templates/Admin/MulticastSources/edit.php:83
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:99
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:99
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:125
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:125
+#: ./templates/Admin/Packages/add.php:112
+#: ./templates/Admin/Packages/edit.php:114
+#: ./templates/Admin/Programs/add.php:194
+#: ./templates/Admin/Programs/edit.php:194
+#: ./templates/Admin/Versions/add.php:56
+#: ./templates/Admin/Versions/edit.php:43
+msgid "Place some text here"
+msgstr ""
+
+#: ./templates/Admin/Cities/view.php:190
+#: ./templates/Admin/Headstations/view.php:467
+#: ./templates/Admin/Logs/view.php:197
+#: ./templates/Admin/MulticastSources/view.php:338
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:304
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:362
+#: ./templates/Admin/Packages/view.php:562
+#: ./templates/Admin/Programs/view.php:586
+#: ./templates/Admin/Versions/view.php:610
+msgid "&darr;&nbsp;more content&nbsp;&darr;"
+msgstr ""
+
+#: ./templates/Admin/Cities/view.php:191
+#: ./templates/Admin/Headstations/view.php:468
+#: ./templates/Admin/Logs/view.php:198
+#: ./templates/Admin/MulticastSources/view.php:339
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:305
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:363
+#: ./templates/Admin/Packages/view.php:563
+#: ./templates/Admin/Programs/view.php:587
+#: ./templates/Admin/Versions/view.php:611
+msgid "&uarr;&nbsp;less content&nbsp;&uarr;"
+msgstr ""
+
+#: ./templates/Admin/Features/add.php:41
+#: ./templates/Admin/Features/edit.php:41
+#: ./templates/Admin/Features/view.php:58
+#: ./templates/Admin/Languages/add.php:57
+#: ./templates/Admin/Languages/edit.php:57
+#: ./templates/Admin/Languages/view.php:73
+#: ./templates/Admin/Packages/view.php:202
+msgid "Program Count"
+msgstr ""
+
+#: ./templates/Admin/Files/upload.php:4
+msgid "Upload image"
+msgstr ""
+
+#: ./templates/Admin/Files/upload.php:5
+msgid "Print Image"
+msgstr ""
+
+#: ./templates/Admin/Files/upload.php:21
+msgid "File"
+msgstr ""
+
+#: ./templates/Admin/Files/upload.php:24
+msgid "If the uploaded image does not appear here, press Ctrl+F5 to refresh the entire page."
+msgstr ""
+
+#: ./templates/Admin/Files/upload.php:25
+msgid "You can set image printing on and off for versions menu."
+msgstr ""
+
+#: ./templates/Admin/Files/upload.php:38
+msgid "Image"
+msgstr ""
+
+#: ./templates/Admin/Headstations/add.php:40
+#: ./templates/Admin/Headstations/edit.php:40
+#: ./templates/Admin/Headstations/view.php:58
+msgid "Place"
+msgstr ""
+
+#: ./templates/Admin/Headstations/add.php:48
+#: ./templates/Admin/Headstations/edit.php:48
+#: ./templates/Admin/Headstations/view.php:73
+msgid "Last Sentence"
+msgstr ""
+
+#: ./templates/Admin/Headstations/add.php:56
+#: ./templates/Admin/Headstations/edit.php:56
+#: ./templates/Admin/Headstations/view.php:88
+msgid "Last Digital Sentence"
+msgstr ""
+
+#: ./templates/Admin/Headstations/add.php:73
+#: ./templates/Admin/Headstations/edit.php:73
+#: ./templates/Admin/Headstations/view.php:103
+msgid "Package Count"
+msgstr ""
+
+#: ./templates/Admin/Headstations/add.php:83
+#: ./templates/Admin/Headstations/edit.php:83
+#: ./templates/Admin/Headstations/view.php:118
+msgid "City Count"
+msgstr ""
+
+#: ./templates/Admin/Headstations/view.php:304
+#: ./templates/Admin/Packages/add.php:57
+#: ./templates/Admin/Packages/edit.php:57
+#: ./templates/Admin/Packages/view.php:67
+#: ./templates/Admin/Programs/view.php:339
+#: ./templates/Admin/Versions/view.php:345
+msgid "Broadcast"
+msgstr ""
+
+#: ./templates/Admin/Headstations/view.php:305
+msgid "PackageGroup"
+msgstr ""
+
+#: ./templates/Admin/Headstations/view.php:307
+#: ./templates/Admin/Packages/add.php:49
+#: ./templates/Admin/Packages/edit.php:49
+#: ./templates/Admin/Packages/view.php:112
+#: ./templates/Admin/Programs/view.php:342
+#: ./templates/Admin/Versions/view.php:348
+msgid "Popular Name"
+msgstr ""
+
+#: ./templates/Admin/Headstations/view.php:308
+#: ./templates/Admin/Packages/add.php:89
+#: ./templates/Admin/Packages/edit.php:89
+#: ./templates/Admin/Packages/view.php:172
+#: ./templates/Admin/Programs/view.php:343
+#: ./templates/Admin/Versions/view.php:350
+msgid "Price"
+msgstr ""
+
+#: ./templates/Admin/Headstations/view.php:311
+#: ./templates/Admin/Packages/add.php:137
+#: ./templates/Admin/Packages/edit.php:139
+msgid "Programs Count"
+msgstr ""
+
+#: ./templates/Admin/Headstations/view.php:371
+#: ./templates/Admin/MyUsers/view.php:34
+#: ./templates/Admin/MyUsers/view.php:256
+msgid "Id"
+msgstr ""
+
+#: ./templates/Admin/Headstations/view.php:375
+#: ./templates/Admin/Versions/index.php:124
+msgid "Current"
+msgstr ""
+
+#: ./templates/Admin/Headstations/view.php:376
+#: ./templates/Admin/Versions/view.php:81
+msgid "Date From"
+msgstr ""
+
+#: ./templates/Admin/Headstations/view.php:377
+#: ./templates/Admin/Versions/view.php:96
+msgid "Date To"
+msgstr ""
+
+#: ./templates/Admin/Logs/add.php:32
+#: ./templates/Admin/Logs/edit.php:32
+#: ./templates/Admin/Logs/view.php:73
+#: ./templates/Admin/MyUsers/view.php:257
+msgid "User Id"
+msgstr ""
+
+#: ./templates/Admin/Logs/add.php:40
+#: ./templates/Admin/Logs/edit.php:40
+#: ./templates/Admin/Logs/view.php:88
+msgid "Model Id"
+msgstr ""
+
+#: ./templates/Admin/Logs/add.php:48
+#: ./templates/Admin/Logs/edit.php:48
+#: ./templates/Admin/Logs/view.php:43
+msgid "Model Name"
+msgstr ""
+
+#: ./templates/Admin/MulticastSources/add.php:41
+#: ./templates/Admin/MulticastSources/edit.php:41
+#: ./templates/Admin/MulticastSources/view.php:81
+#: ./templates/Admin/Versions/view.php:291
+msgid "Src Ip"
+msgstr ""
+
+#: ./templates/Admin/MulticastSources/add.php:49
+#: ./templates/Admin/MulticastSources/edit.php:49
+#: ./templates/Admin/MulticastSources/view.php:66
+#: ./templates/Admin/Versions/view.php:290
+msgid "Dest Ip"
+msgstr ""
+
+#: ./templates/Admin/MulticastSources/add.php:57
+#: ./templates/Admin/MulticastSources/edit.php:57
+#: ./templates/Admin/MulticastSources/view.php:96
+#: ./templates/Admin/Versions/view.php:292
+msgid "Port"
+msgstr ""
+
+#: ./templates/Admin/MulticastSources/add.php:65
+#: ./templates/Admin/MulticastSources/edit.php:65
+#: ./templates/Admin/MulticastSources/view.php:111
+#: ./templates/Admin/Versions/view.php:293
+msgid "Interface"
+msgstr ""
+
+#: ./templates/Admin/MulticastSources/add.php:73
+#: ./templates/Admin/MulticastSources/edit.php:73
+#: ./templates/Admin/MulticastSources/view.php:126
+#: ./templates/Admin/MyUsers/view.php:258
+#: ./templates/Admin/Versions/view.php:294
+msgid "Provider"
+msgstr ""
+
+#: ./templates/Admin/MulticastSources/add.php:90
+#: ./templates/Admin/MulticastSources/edit.php:90
+#: ./templates/Admin/MulticastSources/view.php:141
+msgid "Packages Programs Digital Count"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:248
+#: ./templates/Admin/MyUsers/edit.php:239
+#: ./templates/Admin/Versions/add.php:192
+#: ./templates/Admin/Versions/edit.php:178
+msgid "Go to today"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:249
+#: ./templates/Admin/MyUsers/edit.php:240
+#: ./templates/Admin/Versions/add.php:193
+#: ./templates/Admin/Versions/edit.php:179
+msgid "Clear selection"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:250
+#: ./templates/Admin/MyUsers/edit.php:241
+#: ./templates/Admin/Versions/add.php:194
+#: ./templates/Admin/Versions/edit.php:180
+msgid "Close the picker"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:251
+#: ./templates/Admin/MyUsers/edit.php:242
+#: ./templates/Admin/Versions/add.php:195
+#: ./templates/Admin/Versions/edit.php:181
+msgid "Select Month"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:252
+#: ./templates/Admin/MyUsers/edit.php:243
+#: ./templates/Admin/Versions/add.php:196
+#: ./templates/Admin/Versions/edit.php:182
+msgid "Previous Month"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:253
+#: ./templates/Admin/MyUsers/edit.php:244
+#: ./templates/Admin/Versions/add.php:197
+#: ./templates/Admin/Versions/edit.php:183
+msgid "Next Month"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:254
+#: ./templates/Admin/MyUsers/edit.php:245
+#: ./templates/Admin/Versions/add.php:198
+#: ./templates/Admin/Versions/edit.php:184
+msgid "Select Year"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:255
+#: ./templates/Admin/MyUsers/edit.php:246
+#: ./templates/Admin/Versions/add.php:199
+#: ./templates/Admin/Versions/edit.php:185
+msgid "Previous Year"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:256
+#: ./templates/Admin/MyUsers/edit.php:247
+#: ./templates/Admin/Versions/add.php:200
+#: ./templates/Admin/Versions/edit.php:186
+msgid "Next Year"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:257
+#: ./templates/Admin/MyUsers/edit.php:248
+#: ./templates/Admin/Versions/add.php:201
+#: ./templates/Admin/Versions/edit.php:187
+msgid "Select Decade"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:258
+#: ./templates/Admin/MyUsers/edit.php:249
+#: ./templates/Admin/Versions/add.php:202
+#: ./templates/Admin/Versions/edit.php:188
+msgid "Previous Decade"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:259
+#: ./templates/Admin/MyUsers/edit.php:250
+#: ./templates/Admin/Versions/add.php:203
+#: ./templates/Admin/Versions/edit.php:189
+msgid "Next Decade"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:260
+#: ./templates/Admin/MyUsers/edit.php:251
+#: ./templates/Admin/Versions/add.php:204
+#: ./templates/Admin/Versions/edit.php:190
+msgid "Previous Century"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:261
+#: ./templates/Admin/MyUsers/edit.php:252
+#: ./templates/Admin/Versions/add.php:205
+#: ./templates/Admin/Versions/edit.php:191
+msgid "Next Century"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:262
+#: ./templates/Admin/MyUsers/edit.php:253
+#: ./templates/Admin/Versions/add.php:206
+#: ./templates/Admin/Versions/edit.php:192
+msgid "Increment Hour"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:263
+#: ./templates/Admin/MyUsers/edit.php:254
+#: ./templates/Admin/Versions/add.php:207
+#: ./templates/Admin/Versions/edit.php:193
+msgid "Pick Hour"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:264
+#: ./templates/Admin/MyUsers/edit.php:255
+#: ./templates/Admin/Versions/add.php:208
+#: ./templates/Admin/Versions/edit.php:194
+msgid "Decrement Hour"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:265
+#: ./templates/Admin/MyUsers/edit.php:256
+#: ./templates/Admin/Versions/add.php:209
+#: ./templates/Admin/Versions/edit.php:195
+msgid "Increment Minute"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:266
+#: ./templates/Admin/MyUsers/edit.php:257
+#: ./templates/Admin/Versions/add.php:210
+#: ./templates/Admin/Versions/edit.php:196
+msgid "Pick Minute"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:267
+#: ./templates/Admin/MyUsers/edit.php:258
+#: ./templates/Admin/Versions/add.php:211
+#: ./templates/Admin/Versions/edit.php:197
+msgid "Decrement Minute"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:268
+#: ./templates/Admin/MyUsers/edit.php:259
+#: ./templates/Admin/Versions/add.php:212
+#: ./templates/Admin/Versions/edit.php:198
+msgid "Increment Second"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:269
+#: ./templates/Admin/MyUsers/edit.php:260
+#: ./templates/Admin/Versions/add.php:213
+#: ./templates/Admin/Versions/edit.php:199
+msgid "Pick Second"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/add.php:270
+#: ./templates/Admin/MyUsers/edit.php:261
+#: ./templates/Admin/Versions/add.php:214
+#: ./templates/Admin/Versions/edit.php:200
+msgid "Decrement Second"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/edit.php:33
+msgid "Role"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/edit.php:51
+#: ./templates/Admin/Programs/add.php:168
+#: ./templates/Admin/Programs/edit.php:168
+#: ./templates/Admin/Programs/view.php:165
+#: ./templates/Plugin/CakeDC/Users/Users/request_reset_password.php:33
+msgid "Email"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/edit.php:68
+msgid "First Name"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/edit.php:76
+msgid "Last Name"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/edit.php:116
+#: ./templates/Admin/MyUsers/edit.php:119
+msgid "Activation Date"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/edit.php:119
+#: ./templates/Admin/MyUsers/edit.php:151
+msgid "This field cannot be left empty"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/edit.php:148
+#: ./templates/Admin/MyUsers/edit.php:151
+msgid "Tos Date"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/edit.php:163
+#: ./templates/Admin/MyUsers/view.php:267
+msgid "Active"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/edit.php:172
+msgid "Is Superuser"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/view.php:236
+msgid "Social Accounts"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/view.php:259
+msgid "Username"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/view.php:260
+msgid "Reference"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/view.php:261
+msgid "Avatar"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/view.php:262
+msgid "Description"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/view.php:263
+msgid "Link"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/view.php:264
+msgid "Token"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/view.php:265
+msgid "Token Secret"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/view.php:266
+msgid "Token Expires"
+msgstr ""
+
+#: ./templates/Admin/MyUsers/view.php:268
+msgid "Data"
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:33
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:33
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:33
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:33
+msgid "Package Id"
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:41
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:41
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:41
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:41
+msgid "Program Id"
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:49
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:49
+msgid "Band Id"
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:57
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:57
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:135
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:178
+#: ./templates/Admin/Versions/view.php:461
+#: ./templates/Admin/Versions/view.php:518
+msgid "Packageorder"
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:81
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:81
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:90
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:118
+#: ./templates/Admin/Programs/view.php:407
+#: ./templates/Admin/Programs/view.php:484
+#: ./templates/Admin/Versions/view.php:522
+msgid "Channel"
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:89
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:89
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:165
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:208
+#: ./templates/Admin/Programs/view.php:408
+#: ./templates/Admin/Versions/view.php:523
+msgid "Frequency"
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:105
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:105
+#: ./templates/Admin/PackagesProgramsAnalogs/view.php:105
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:131
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:131
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:148
+#: ./templates/Admin/Programs/view.php:410
+#: ./templates/Admin/Programs/view.php:488
+msgid "Public Comment"
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:123
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:123
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:149
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:149
+msgid "Mark for deletion. It will not be deleted immediately, but will be deleted for group deletions."
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsAnalogs/add.php:131
+#: ./templates/Admin/PackagesProgramsAnalogs/edit.php:131
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:157
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:157
+msgid "Whether the channel list is displayed when printing"
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:49
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:49
+#: ./templates/Admin/Programs/view.php:482
+#: ./templates/Admin/Versions/view.php:517
+msgid "Ackey Id"
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:75
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:75
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:103
+#: ./templates/Admin/Packages/view.php:315
+#: ./templates/Admin/Programs/add.php:53
+#: ./templates/Admin/Programs/edit.php:53
+#: ./templates/Admin/Programs/view.php:90
+#: ./templates/Admin/Programs/view.php:481
+#: ./templates/Admin/Versions/view.php:407
+#: ./templates/Admin/Versions/view.php:520
+msgid "Short Name"
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsDigitals/add.php:133
+#: ./templates/Admin/PackagesProgramsDigitals/edit.php:133
+msgid "For example: PLANNED"
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsDigitals/index.php:60
+msgid "Row"
+msgstr ""
+
+#: ./templates/Admin/PackagesProgramsDigitals/view.php:66
+msgid "Multicast Source"
+msgstr ""
+
+#: ./templates/Admin/Packages/add.php:33
+#: ./templates/Admin/Packages/edit.php:33
+msgid "Internal name"
+msgstr ""
+
+#: ./templates/Admin/Packages/add.php:35
+#: ./templates/Admin/Packages/edit.php:35
+msgid "Name for internal use"
+msgstr ""
+
+#: ./templates/Admin/Packages/add.php:41
+#: ./templates/Admin/Packages/edit.php:41
+#: ./templates/Admin/Packages/view.php:97
+#: ./templates/Admin/Programs/view.php:341
+#: ./templates/Admin/Versions/view.php:347
+msgid "Shortname"
+msgstr ""
+
+#: ./templates/Admin/Packages/add.php:43
+#: ./templates/Admin/Packages/edit.php:43
+msgid "For example: F.P."
+msgstr ""
+
+#: ./templates/Admin/Packages/add.php:51
+#: ./templates/Admin/Packages/edit.php:51
+msgid "For example: Family Package"
+msgstr ""
+
+#: ./templates/Admin/Packages/add.php:73
+#: ./templates/Admin/Packages/edit.php:73
+#: ./templates/Admin/Packages/view.php:142
+msgid "Popular Comment Analog"
+msgstr ""
+
+#: ./templates/Admin/Packages/add.php:75
+#: ./templates/Admin/Packages/add.php:83
+#: ./templates/Admin/Packages/edit.php:75
+#: ./templates/Admin/Packages/edit.php:83
+msgid "For example: discounted (loyalty fee) gross: 3735 HUF/month"
+msgstr ""
+
+#: ./templates/Admin/Packages/add.php:81
+#: ./templates/Admin/Packages/edit.php:81
+#: ./templates/Admin/Packages/view.php:157
+msgid "Popular Comment Digital"
+msgstr ""
+
+#: ./templates/Admin/Packages/add.php:91
+#: ./templates/Admin/Packages/edit.php:91
+msgid "Package price"
+msgstr ""
+
+#: ./templates/Admin/Packages/view.php:127
+#: ./templates/Admin/Versions/view.php:349
+msgid "External Name"
+msgstr ""
+
+#: ./templates/Admin/Packages/view.php:316
+#: ./templates/Admin/Programs/add.php:87
+#: ./templates/Admin/Programs/edit.php:87
+#: ./templates/Admin/Versions/view.php:408
+#: ./templates/Cities/pdf/digitals.php:94
+#: ./templates/Cities/pdf/digitals.php:132
+#: ./templates/Cities/pdf/digitals.php:221
+msgid "New"
+msgstr ""
+
+#: ./templates/Admin/Programs/add.php:28
+#: ./templates/Admin/Programs/edit.php:28
+msgid "Basic"
+msgstr ""
+
+#: ./templates/Admin/Programs/add.php:31
+#: ./templates/Admin/Programs/edit.php:31
+msgid "More"
+msgstr ""
+
+#: ./templates/Admin/Programs/add.php:61
+#: ./templates/Admin/Programs/edit.php:61
+msgid "Feature Id"
+msgstr ""
+
+#: ./templates/Admin/Programs/add.php:69
+#: ./templates/Admin/Programs/edit.php:69
+msgid "Language Id"
+msgstr ""
+
+#: ./templates/Admin/Programs/add.php:77
+#: ./templates/Admin/Programs/edit.php:77
+#: ./templates/Admin/Versions/view.php:516
+msgid "Multicast Source Id"
+msgstr ""
+
+#: ./templates/Admin/Programs/add.php:87
+#: ./templates/Admin/Programs/edit.php:87
+msgid "When a new program is added, the x-principle will be marked as new in the channel list."
+msgstr ""
+
+#: ./templates/Admin/Programs/add.php:123
+#: ./templates/Admin/Programs/edit.php:123
+#: ./templates/Admin/Programs/view.php:225
+msgid "Packages Count"
+msgstr ""
+
+#: ./templates/Admin/Programs/add.php:136
+#: ./templates/Admin/Programs/edit.php:136
+#: ./templates/Admin/Programs/view.php:105
+msgid "Logo File"
+msgstr ""
+
+#: ./templates/Admin/Programs/add.php:144
+#: ./templates/Admin/Programs/edit.php:144
+#: ./templates/Admin/Programs/view.php:120
+msgid "Logo Url"
+msgstr ""
+
+#: ./templates/Admin/Programs/add.php:152
+#: ./templates/Admin/Programs/edit.php:152
+#: ./templates/Admin/Programs/view.php:135
+msgid "Url"
+msgstr ""
+
+#: ./templates/Admin/Programs/add.php:160
+#: ./templates/Admin/Programs/edit.php:160
+#: ./templates/Admin/Programs/view.php:150
+msgid "Programs Url"
+msgstr ""
+
+#: ./templates/Admin/Programs/add.php:176
+#: ./templates/Admin/Programs/edit.php:176
+#: ./templates/Admin/Programs/view.php:180
+msgid "Address"
+msgstr ""
+
+#: ./templates/Admin/Programs/add.php:184
+#: ./templates/Admin/Programs/edit.php:184
+#: ./templates/Admin/Programs/view.php:195
+msgid "Phone"
+msgstr ""
+
+#: ./templates/Admin/Trackings/add.php:32
+#: ./templates/Admin/Trackings/edit.php:32
+msgid "Version Id"
+msgstr ""
+
+#: ./templates/Admin/Trackings/add.php:48
+#: ./templates/Admin/Trackings/edit.php:48
+#: ./templates/Admin/Trackings/view.php:66
+msgid "Old Id"
+msgstr ""
+
+#: ./templates/Admin/Trackings/add.php:56
+#: ./templates/Admin/Trackings/edit.php:56
+#: ./templates/Admin/Trackings/view.php:81
+msgid "New Id"
+msgstr ""
+
+#: ./templates/Admin/Versions/add.php:40
+msgid "Source version"
+msgstr ""
+
+#: ./templates/Admin/Versions/add.php:44
+msgid "Destionation Headstation"
+msgstr ""
+
+#: ./templates/Admin/Versions/add.php:102
+#: ./templates/Admin/Versions/edit.php:88
+#: ./templates/Admin/Versions/view.php:111
+msgid "Print image"
+msgstr ""
+
+#: ./templates/Admin/Versions/add.php:102
+#: ./templates/Admin/Versions/edit.php:88
+msgid "Whether or not to print the uploaded image on the second page "
+msgstr ""
+
+#: ./templates/Admin/Versions/add.php:110
+#: ./templates/Admin/Versions/edit.php:96
+msgid "When cloning, appears in the source list"
+msgstr ""
+
+#: ./templates/Admin/Versions/index.php:58
+#: ./templates/Admin/Versions/index.php:111
+msgid "Work"
+msgstr ""
+
+#: ./templates/Admin/Versions/index.php:113
+msgid "Set current version to session"
+msgstr ""
+
+#: ./templates/Admin/Versions/index.php:127
+msgid "Select"
+msgstr ""
+
+#: ./templates/Admin/Versions/index.php:127
+msgid "Set current version to channels"
+msgstr ""
+
+#: ./templates/Admin/Versions/index.php:127
+msgid "Are you sure you want to set this version for the current version?"
+msgstr ""
+
+#: ./templates/Admin/Versions/view.php:116
+msgid "Yes"
+msgstr ""
+
+#: ./templates/Admin/Versions/view.php:118
+msgid "No"
+msgstr ""
+
+#: ./templates/Admin/Versions/view.php:198
+msgid "Multicast Sources"
+msgstr ""
+
+#: ./templates/Admin/element/contentPageHeader.php:19
+msgid "Change version"
+msgstr ""
+
+#: ./templates/Cities/index.php:104
+msgid "PDF"
+msgstr ""
+
+#: ./templates/Cities/index.php:104
+msgid "Generate PDF file"
+msgstr ""
+
+#: ./templates/Cities/index.php:106
+msgid "HTML"
+msgstr ""
+
+#: ./templates/Cities/index.php:106
+msgid "Generate HTML"
+msgstr ""
+
+#: ./templates/Cities/pdf/digitals.php:9
+msgid "Print"
+msgstr ""
+
+#: ./templates/Cities/pdf/digitals.php:10
+msgid "Print PDF"
+msgstr ""
+
+#: ./templates/Cities/pdf/digitals.php:11
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: ./templates/Cities/pdf/digitals.php:41
+msgid "Channel list"
+msgstr ""
+
+#: ./templates/Cities/pdf/digitals.php:42
+#: ./templates/Cities/pdf/digitals.php:45
+#: ./templates/Plugin/CakeDC/Users/Users/BACKUP/login.php:21
+#: ./templates/Plugin/CakeDC/Users/Users/change_password.php:21
+#: ./templates/Plugin/CakeDC/Users/Users/login.php:21
+#: ./templates/Plugin/CakeDC/Users/Users/register.php:21
+#: ./templates/Plugin/CakeDC/Users/Users/request_reset_password.php:21
+#: ./templates/layout/html.php:22
+msgid "Channels"
+msgstr ""
+
+#: ./templates/Cities/pdf/digitals.php:43
+msgid "Sághy-Sat Kft. • 7754 Bóly, Ady E. u. 9. • Tel.: +36 69/368-162 • E-mail: info@saghysat.hu • WEB: www.saghysat.hu"
+msgstr ""
+
+#: ./templates/Cities/pdf/digitals.php:63
+msgid "digital channel distribution"
+msgstr ""
+
+#: ./templates/Cities/pdf/digitals.php:65
+msgid "Digital channel distribution"
+msgstr ""
+
+#: ./templates/Cities/pdf/digitals.php:91
+#: ./templates/Cities/pdf/digitals.php:129
+#: ./templates/Cities/pdf/digitals.php:218
+msgid "LCN"
+msgstr ""
+
+#: ./templates/Cities/pdf/digitals.php:98
+#: ./templates/Cities/pdf/digitals.php:136
+msgid "Fam"
+msgstr ""
+
+#: ./templates/Cities/pdf/digitals.php:164
+msgid "The number of channels indicates the default setting on the TV. The custom order may be different."
+msgstr ""
+
+#: ./templates/Cities/pdf/digitals.php:183
+msgid "Our packages are available for a monthly fee."
+msgstr ""
+
+#: ./templates/Plugin/CakeDC/Users/Users/index.php:30
+msgid "Users"
+msgstr ""
+
+#: ./templates/Plugin/CakeDC/Users/Users/index.php:79
+msgid "View this user"
+msgstr ""
+
+#: ./templates/Plugin/CakeDC/Users/Users/index.php:83
+msgid "Edit this user"
+msgstr ""
+
+#: ./templates/Plugin/CakeDC/Users/Users/view.php:25
+msgid "View"
+msgstr ""
+
+#: ./templates/Plugin/CakeDC/Users/Users/view.php:61
+msgid "Fullname"
+msgstr ""
+
+#: ./templates/layout/error.php:38
+msgid "Back"
+msgstr ""
+
