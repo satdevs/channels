@@ -203,7 +203,7 @@ class CitiesController extends AppController
 		
 		if($target == 'html'){
 			$this->viewBuilder()->setLayout('html');
-			$this->viewBuilder()->setTemplatePath('Cities' . DS . 'Pdf');	// Itt vannak a template-k, hogy egy fájlt kelljen módosítani, ha ...
+			$this->viewBuilder()->setTemplatePath('Cities' . DS . 'pdf');	// Itt vannak a template-k, hogy egy fájlt kelljen módosítani, ha ...
 			
 		}
 		if($target == 'pdf'){

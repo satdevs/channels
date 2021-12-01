@@ -1,6 +1,8 @@
 # CakePHP 4
 
 /vendor/*
+/plugins/*
+!/plugins/empty
 /config/app_local.php
 
 /tmp/cache/models/*
@@ -13,6 +15,9 @@
 !/tmp/sessions/empty
 /tmp/tests/*
 !/tmp/tests/empty
+
+/tmp/*
+!/tmp/empty
 
 /logs/*
 !/logs/empty
