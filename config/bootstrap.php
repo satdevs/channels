@@ -223,6 +223,10 @@ try {
 }
 
 Configure::write('Bake.theme', 'JeffAdmin');
+
+Configure::write('SubDir', '/channels');
+//Configure::write('SubDir', '/');
+
 /*
 Configure::write('CakePdf', [
     'engine' => [
