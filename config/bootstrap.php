@@ -217,18 +217,18 @@ TypeFactory::map('time', StringType::class);
 //Inflector::rules('uninflected', ['dontinflectme']);
 
 try {
-	Configure::load('JeffAdmin', 'default');
+	Configure::load('jeffadmin', 'default');
 } catch (\Exception $e) {
     exit($e->getMessage() . "\n");
 }
 
 Configure::write('Bake.theme', 'JeffAdmin');
-
+/*
 Configure::write('CakePdf', [
     'engine' => [
     	//'className' => 'CakePdf.Dompdf',
     	//'className' => 'CakePdf.TcPdf',
-    	'className' => 'CakePdf.Mpdf',
+    	'className' => 'CakePdf.Mpdf',		// <<-- A legjobb
 	    'options' => [
 		    'isRemoteEnabled' => true,
 	    ],
@@ -248,6 +248,7 @@ Configure::write('CakePdf', [
     'download' => true,
 
 ]);
+*/
 
 //Configure::write('Auth.authenticate.Form.fields.username', 'email');
 
