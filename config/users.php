@@ -11,7 +11,7 @@
  */
 
 use Cake\Routing\Router;
-
+use Cake\Core\Configure;
 
 $config = [
 	'Auth.Identifiers.Password.fields.username' => 'email',
@@ -65,7 +65,8 @@ $config = [
 			'load' => true,
 			//'loginRedirect' => "http://channels4.loc/channels/",
 			//'loginRedirect' => $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/channels',
-			$url = "https://base.saghysat.hu/channels/",
+			//'loginRedirect' => "https://base.saghysat.hu" . Configure::read('SubDir') . "/",
+			'loginRedirect' => $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . Configure::read('SubDir') . "/",
 			'requireIdentity' => false
 		],
 		
@@ -78,8 +79,9 @@ $config = [
 					//die();
 					//$url = "http://channels4.loc/channels/login";
 					//$url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/channels/login';	
-					
-					$url = "https://base.saghysat.hu/channels/login";
+					//$url = "https://base.saghysat.hu" . Configure::read('SubDir') . "/login";
+
+					$url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . Configure::read('SubDir') . "/login";
 					if(isset($_SESSION['Auth']['id']) && isset($_SERVER['HTTP_REFERER'])){
 						$url = $_SERVER['HTTP_REFERER'];
 					}
