@@ -64,7 +64,7 @@ $config = [
 		'AuthenticationComponent' => [
 			'load' => true,
 			//'loginRedirect' => "http://channels4.loc/channels/",
-			'loginRedirect' => $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/',
+			'loginRedirect' => $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/channels/',
 			'requireIdentity' => false
 		],
 		
@@ -77,7 +77,7 @@ $config = [
 					//die();
 					
 					//$url = "http://channels4.loc/channels/login";
-					$url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/login';	
+					$url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/channels/login';
 					if(isset($_SESSION['Auth']['id']) && isset($_SERVER['HTTP_REFERER'])){
 						$url = $_SERVER['HTTP_REFERER'];
 					}
