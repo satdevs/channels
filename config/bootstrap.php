@@ -224,15 +224,11 @@ try {
 
 Configure::write('Bake.theme', 'JeffAdmin');
 
-Configure::write('SubDir', '/channels');
-//Configure::write('SubDir', '/');
-
-/*
 Configure::write('CakePdf', [
     'engine' => [
     	//'className' => 'CakePdf.Dompdf',
     	//'className' => 'CakePdf.TcPdf',
-    	'className' => 'CakePdf.Mpdf',		// <<-- A legjobb
+    	'className' => 'CakePdf.Mpdf',
 	    'options' => [
 		    'isRemoteEnabled' => true,
 	    ],
@@ -252,7 +248,6 @@ Configure::write('CakePdf', [
     'download' => true,
 
 ]);
-*/
 
 //Configure::write('Auth.authenticate.Form.fields.username', 'email');
 

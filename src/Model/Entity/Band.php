@@ -46,13 +46,4 @@ class Band extends Entity
         'created' => true,
         'packages_programs_analogs' => true,
     ];
-	
-	// https://book.cakephp.org/4/en/orm/entities.html#creating-virtual-fields
-    protected function _getFullName()
-    {
-        //return __('Band') . ': ' . $this->band . ', '. __('Type') . ': ' . $this->type . ', '. __('Freq') . ': ' . $this->frequency . ' Mhz, ' . __('Bandwidth') . ': ' . $this->bandwidth . ', ' . __('Audio freq') . ': ' . $this->audio_frequency . ' Mhz';
-        return $this->band . ' • ' . $this->type . ' • Freq.:' . $this->frequency . ' Mhz • Sávszél.: ' . $this->bandwidth . ' Mhz • Audió: ' . $this->audio_frequency . ' Mhz';
-    }	
-	
-	
 }

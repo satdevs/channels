@@ -47,7 +47,7 @@
 						<!-- 1. integer -->
 						<div class="form-group row">
 							<label for="band_id" class="col-sm-2 col-form-label"><?= __('Band Id') ?>:</label>
-							<div class="col-sm-5">
+							<div class="col-sm-4">
 								<?php echo $this->Form->control('band_id', ['options' => $bands, 'class' => 'selectpicker form-control integer', 'title' => 'Kérem válasszon...', 'data-live-search' => 'true', 'data-actions-box' => 'true', 'label' => false, 'empty' => false]); ?>
 							</div>										
 						</div>

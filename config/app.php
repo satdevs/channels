@@ -424,6 +424,10 @@ return [
      */
     'Session' => [
         'defaults' => 'php',
+		'cookie' => 'channels',
+		'timeout' => 720,			// 12 hours
+		'cookieTimeout' => 720,		// session cookie 12 hours
+		'autoRegenerate' => true	// regenerate session	
 	],
 	
 ];

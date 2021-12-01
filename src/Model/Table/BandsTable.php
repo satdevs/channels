@@ -43,7 +43,7 @@ class BandsTable extends Table
         parent::initialize($config);
 
         $this->setTable('bands');
-        $this->setDisplayField('full_name');
+        $this->setDisplayField('name');
         $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
