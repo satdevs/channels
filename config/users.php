@@ -64,7 +64,8 @@ $config = [
 		'AuthenticationComponent' => [
 			'load' => true,
 			//'loginRedirect' => "http://channels4.loc/channels/",
-			'loginRedirect' => $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/channels',
+			//'loginRedirect' => $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/channels',
+			$url = "https://base.saghysat.hu/channels/";
 			'requireIdentity' => false
 		],
 		
@@ -77,7 +78,8 @@ $config = [
 					//die();
 					
 					//$url = "http://channels4.loc/channels/login";
-					$url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/channels/login';	
+					//$url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/channels/login';	
+					$url = "https://base.saghysat.hu/channels/login";
 					if(isset($_SESSION['Auth']['id']) && isset($_SERVER['HTTP_REFERER'])){
 						$url = $_SERVER['HTTP_REFERER'];
 					}
