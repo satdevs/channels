@@ -271,21 +271,9 @@ echo '<img src="'.$src.'">';
 	$img_file = Configure::read('UploadDir') . 'advertising.jpg';
 	$imgData = base64_encode(file_get_contents($img_file));
 	$src = 'data: '.mime_content_type($img_file).';base64,'.$imgData;
-
-	//$fh = fopen( Configure::read('UploadDir') . 'advertising.jpg', "r" );
-	//if ($fh) {
-		//while (($buffer = fgets($fh, 4096)) !== false) {
-		//	$image .= $buffer;
-		//}
-		//fclose($fh);
-	//}
 ?>
-
-
 <?php if($print_image){ ?>
 		<div class="advertising">
-			<?php //= $this->Html->image('/cities/photo/advertising.jpg', ['fullBase' => true]); ?>
-			<!--img src="http://192.168.254.215:8003/channels/cities/photo/advertising.jpg" /-->
 			<img src="<?= $src ?>" />
 		</div>
 <?php } ?>
