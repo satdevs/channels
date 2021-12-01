@@ -224,6 +224,8 @@ try {
 
 Configure::write('Bake.theme', 'JeffAdmin');
 
+Configure::write('UploadDir', ROOT . DS . 'uploads' . DS);
+
 Configure::write('CakePdf', [
     'engine' => [
     	//'className' => 'CakePdf.Dompdf',

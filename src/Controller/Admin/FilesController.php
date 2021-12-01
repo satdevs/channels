@@ -22,6 +22,7 @@ class FilesController extends AppController
 	// https://webscodex.com/how-to-upload-file-in-cakephp-4-part-5/ 
     public function upload()
     {
+		$name = 'advertising.jpg';
 		
 		$this->set('title', __('File upload for channels advertisment'));
 		
@@ -29,9 +30,10 @@ class FilesController extends AppController
     	    $postData = $this->request->getData();
             $postImage = $this->request->getData('post_image');
             //$name = $postImage->getClientFilename();
-			$name = 'advertising.jpg';
             $type = $postImage->getClientMediaType();
-            $targetPath = WWW_ROOT. 'img'. DS . $name;
+            //$targetPath = WWW_ROOT. 'img'. DS . $name;
+            $targetPath = Configure::read('UploadDir') . $name;
+			
             if ($type == 'image/jpeg' || $type == 'image/jpg' || $type == 'image/png') {
 				if(file_exists($targetPath)){
 					unlink($targetPath);

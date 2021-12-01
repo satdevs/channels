@@ -37,7 +37,7 @@
 					<div class="form-group row p-3">
 						<label for="name" class="col-sm-2 col-form-label"><?= __('Image') ?>:</label>
 						<div class="col-sm-9">
-							<?= $this->Html->image('advertising.jpg', ['class' => 'img img-responsive', 'style'=>'width: 100%; border: 1px solid lightgray; padding: 5px; background: white;']); ?>
+							<?= $this->Html->image('/cities/photo/advertising.jpg', ['class' => 'img img-responsive', 'style'=>'width: 100%; border: 1px solid lightgray; padding: 5px; background: white;']); ?>
 						</div>
 					</div>
 

@@ -336,7 +336,59 @@ class CitiesController extends AppController
 	}
 
 
+    public function photo($filename = 'advertising.jpg')
+    {
+		
+		if(file_exists(Configure::read('UploadDir') . $filename)){
+			$fh = fopen( Configure::read('UploadDir') . $filename, "r" );
+			if ($fh) {
+				while (($buffer = fgets($fh, 4096)) !== false) {
+					echo $buffer;
+				}
+				fclose($fh);
+			}
+		}else{
+			echo "error";
+		}
 
+	}
 
+/*
+	public function download($hash=Null) {
+		Configure::write('debug', 0); //it will avoid any extra output		
+		$this->autoRender = false;
+		if(!$hash){
+			$this->redirect('/');
+		}
+		$this->loadModel('Uploads');
+		$file = $this->Uploads->find()->select(['id','ext','filename'])->where(['hash'=>$hash])->toArray();
+		
+		if(!$file[0]['id']){
+			$this->redirect('/');
+		}else{
+			$id         = $file[0]['id'];
+			$ext        = $file[0]['ext'];
+			$filename   = str_replace(" ","_",$file[0]['filename']);
+			
+			$path       = WWW_ROOT.'files'.DS;
+			$src_filename_with_path = $path.$id.'_'.$this->My->normalizeString($filename);
+			
+			header('Content-Type: multipart/mixed;');
+			header('Content-Disposition: attachment; filename='.$filename);
+			if(file_exists($src_filename_with_path)){
+				$fh = fopen( $src_filename_with_path, "r" );
+				if ($fh) {
+					while (($buffer = fgets($fh, 4096)) !== false) {
+						echo $buffer;
+					}
+					fclose($fh);
+				}
+			}
+			die();	//Ez kell, mert az autoRender nem működik sajna...
+		}
+	}
+
+*/
+	
+	
 }
-
