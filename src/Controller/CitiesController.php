@@ -339,6 +339,7 @@ class CitiesController extends AppController
     public function photo($filename = 'advertising.jpg')
     {
 		
+		header('Content-Type: image/jpg;');
 		if(file_exists(Configure::read('UploadDir') . $filename)){
 			$fh = fopen( Configure::read('UploadDir') . $filename, "r" );
 			if ($fh) {

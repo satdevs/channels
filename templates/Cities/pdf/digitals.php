@@ -247,7 +247,8 @@
 			
 <?php if($print_image){ ?>
 		<div class="advertising">
-			<?= $this->Html->image('/cities/photo/advertising.jpg', ['fullBase' => true]); ?>
+			<?php //= $this->Html->image('/cities/photo/advertising.jpg', ['fullBase' => true]); ?>
+			<img src="http://192.168.254.215:8003/channels/cities/photo/advertising.jpg" />
 		</div>
 <?php } ?>
 		
