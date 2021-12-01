@@ -268,15 +268,17 @@ echo '<img src="'.$src.'">';
 */ ?>
 
 <?php
-	$img_file = Configure::read('UploadDir') . 'advertising.jpg';
-	$imgData = base64_encode(file_get_contents($img_file));
-	$src = 'data: '.mime_content_type($img_file).';base64,'.$imgData;
+	if($print_image){
+		$img_file = Configure::read('UploadDir') . 'advertising.jpg';
+		$imgData = base64_encode(file_get_contents($img_file));
+		$src = 'data: '.mime_content_type($img_file).';base64,'.$imgData;
 ?>
-<?php if($print_image){ ?>
 		<div class="advertising">
 			<img src="<?= $src ?>" />
 		</div>
-<?php } ?>
+<?php
+	}
+?>
 		
 	</columns>
 	
