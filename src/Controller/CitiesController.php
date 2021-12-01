@@ -208,7 +208,7 @@ class CitiesController extends AppController
 		}
 		if($target == 'pdf'){
 			$this->viewBuilder()->enableAutoLayout(false); 
-			$this->viewBuilder()->setClassName('CakePdf.pdf');
+			$this->viewBuilder()->setClassName('CakePdf.Pdf');
 		}
 		
 
