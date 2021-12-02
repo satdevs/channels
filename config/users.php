@@ -10,8 +10,7 @@
  * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
-use Cake\Routing\Router;
-
+use Cake\Core\Configure;
 
 $config = [
 	'Auth.Identifiers.Password.fields.username' => 'email',
@@ -64,7 +63,12 @@ $config = [
 		'AuthenticationComponent' => [
 			'load' => true,
 			//'loginRedirect' => "http://channels4.loc/channels/",
-			'loginRedirect' => $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/channels/',
+			//'loginRedirect' => $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/channels/',
+			
+			// http://192.168.254.215:8003/channels/
+			// vagy
+			// https://base.saghysat.hu/channels/
+			'loginRedirect' => $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . Configure::read('SubDir') . '/',
 			'requireIdentity' => false
 		],
 		
@@ -77,7 +81,11 @@ $config = [
 					//die();
 					
 					//$url = "http://channels4.loc/channels/login";
-					$url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/channels/login';
+					
+					// http://192.168.254.215:8003/channels/
+					// vagy
+					// https://base.saghysat.hu/channels/
+					$url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . Configure::read('SubDir') . '/login';
 					if(isset($_SESSION['Auth']['id']) && isset($_SERVER['HTTP_REFERER'])){
 						$url = $_SERVER['HTTP_REFERER'];
 					}

@@ -224,7 +224,18 @@ try {
 
 Configure::write('Bake.theme', 'JeffAdmin');
 
-Configure::write('UploadDir', ROOT . DS . 'uploads' . DS);
+Configure::write('UploadDir', ROOT . DS . 'uploads' . DS);	// Feltöltendő képek helye
+
+
+// http://192.168.254.215:8003/channels/
+// vagy
+// https://base.saghysat.hu/channels/
+Configure::write('SubDir', '');
+if(explode('/', $_SERVER['PHP_SELF'])[1] == 'channels'){
+	Configure::write('SubDir', '/channels');
+}
+
+
 
 Configure::write('CakePdf', [
     'engine' => [
