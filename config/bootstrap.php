@@ -230,9 +230,19 @@ Configure::write('UploadDir', ROOT . DS . 'uploads' . DS);	// Feltöltendő kép
 // http://192.168.254.215:8003/channels/
 // vagy
 // https://base.saghysat.hu/channels/
-Configure::write('SubDir', '');
-if(explode('/', $_SERVER['PHP_SELF'])[1] == 'channels'){
-	Configure::write('SubDir', '/channels');
+
+
+//debug(explode('/', $_SERVER['PHP_SELF']));
+
+//Configure::write('SubDir', '');	
+//if(explode('/', $_SERVER['PHP_SELF'])[1] == 'channels'){
+//	Configure::write('SubDir', '/channels');
+//}
+
+if(explode('/', $_SERVER['PHP_SELF'])[1] == 'webroot' && explode('/', $_SERVER['PHP_SELF'])[2] == 'index.php'){
+	Configure::write('SubDir', '');	
+}else{
+	Configure::write('SubDir', '/' . explode('/', $_SERVER['PHP_SELF'])[1]);		// Egy szintig lehet alkönyvtárazni. De ezt még orvosolom később ...
 }
 
 
