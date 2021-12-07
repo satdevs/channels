@@ -1,6 +1,6 @@
 {
-    "name": "cakephp/app",
-    "description": "CakePHP skeleton app",
+    "name": "satdev/channels",
+    "description": "Channels for local TV company",
     "homepage": "https://cakephp.org",
     "type": "project",
     "license": "MIT",
