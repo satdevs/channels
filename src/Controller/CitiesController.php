@@ -194,22 +194,21 @@ class CitiesController extends AppController
 			$print_city_name = false;
 			$city_id = 72;
 		}
-		
+
 		//Configure::write('debug', false);
 		
 		$channels = null;
 		
 		$this->session->write('Layout.' . $this->controller . '.LastId', $city_id);
 		
-		if($target == 'html'){
-			$this->viewBuilder()->setLayout('html');
+		$this->viewBuilder()->enableAutoLayout(false); 
+		$this->viewBuilder()->setLayout('html');
+		if($target == 'html'){			
 			$this->viewBuilder()->setTemplatePath('Cities' . DS . 'pdf');	// Itt vannak a template-k, hogy egy fájlt kelljen módosítani, ha ...
 		}
 		if($target == 'pdf'){
-			$this->viewBuilder()->enableAutoLayout(false); 
 			$this->viewBuilder()->setClassName('CakePdf.Pdf');
 		}
-		
 
 		$this->loadModel('Cities');
 		$this->loadModel('Versions');
