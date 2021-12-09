@@ -196,6 +196,14 @@ class CitiesController extends AppController
 		}
 
 		//Configure::write('debug', false);
+
+		//if($target == 'pdf'){
+		//	Configure::write('App.fullBaseUrl', false);
+		//}else{
+		//	Configure::write('App.fullBaseUrl', 'https://base.saghysat.hu/');
+		//}
+		
+		//echo Configure::read('App.fullBaseUrl');
 		
 		$channels = null;
 		
@@ -325,7 +333,7 @@ class CitiesController extends AppController
 		
 		$print_image = $version->print_image;
 		
-		$this->set(compact('channels', 'digitals', 'city', 'print_city_name', 'print_image'));
+		$this->set(compact('channels', 'digitals', 'city', 'print_city_name', 'print_image', 'target'));
 		
 		//return $this->redirect([
 		//	'action' => 'index', 

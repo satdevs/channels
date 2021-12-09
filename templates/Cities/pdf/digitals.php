@@ -44,6 +44,7 @@ use Cake\Core\Configure;
 	<meta name="description" content="<?= __('Channel list') ?>">
 	<meta name="keywords" content="<?= __('Channels') ?>">
 	<meta name="author" content="<?= __('Sághy-Sat Kft. • 7754 Bóly, Ady E. u. 9. • Tel.: +36 69/368-162 • E-mail: info@saghysat.hu • WEB: www.saghysat.hu') ?>">
+	<meta name="host" content="<?= $this->request->getUri()->getHost() ?>">
   
 	<title><?= __('Channels') ?>: <?= $this->fetch('title') ?></title>
 	
@@ -51,7 +52,17 @@ use Cake\Core\Configure;
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <?= $this->Html->css(['https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@300&display=swap']) ?>
 
-	<?= $this->Html->css('channels.digitals', ['fullBase' => true]) ?>
+	<?php
+	if($target == 'html' && $this->request->getUri()->getHost() == 'base.saghysat.hu'){	
+		echo $this->Html->css('https://base.saghysat.hu/channels/css/channels.digitals.css');
+	}else{
+		//if($target == 'pdf' && $this->request->getUri()->getHost() == 'base.saghysat.hu'){	
+			echo $this->Html->css('channels.digitals', ['fullBase' => true]);
+		//}else{
+		//	echo $this->Html->css('channels.digitals', ['fullBase' => true]);
+		//}
+	}
+	?>
 	
 </head>
 <body>
@@ -86,7 +97,7 @@ use Cake\Core\Configure;
 		<?php //debug($digitals->toArray()); ?>
 		
 		<div class="clear-both"></div>
-	
+		
 		<div class="left">
 			<table id="table-left" cellpadding="0" cellspacing="0">
 				<thead>
