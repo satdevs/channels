@@ -21,3 +21,5 @@
 
 /logs/*
 !/logs/empty
+
+composer.lock
