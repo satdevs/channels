@@ -191,6 +191,8 @@ return [
 			'vendor/cakephp/cakephp/src/Routing/Route/Route.php',
 			'vendor/cakephp/cakephp/src/ORM/Marshaller.php',
 			'vendor/cakephp/cakephp/src/I18n/Time.php',
+			//'vendor/cakephp/cakephp/src/Core/functions.php',
+			'config/bootstrap.php',
 		]
     ],
 
@@ -427,7 +429,7 @@ return [
 		'cookie' => 'channels',
 		'timeout' => 720,			// 12 hours
 		'cookieTimeout' => 720,		// session cookie 12 hours
-		'autoRegenerate' => true	// regenerate session	
+		'autoRegenerate' => true	// regenerate session
 	],
-	
+
 ];
